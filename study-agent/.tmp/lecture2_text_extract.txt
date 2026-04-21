@@ -1,0 +1,125 @@
+### STREAM 0
+http://people.eng.unimelb.edu.au/tobym @tobycmurraytoby.murray@unimelb.edu.auDMD 8.17 (Level 8, Doug McDonell Bldg) Toby MurraySWEN90010 - High Integrity Systems EngineeringHigh Integrity Systems, Safety
+
+### STREAM 6
+AFETYNGINEERINGINTRODUCTIONTO S E2
+
+### STREAM 7
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseWhat does it mean for software?Outcomes3What is ÒsafetyÓ?How do we get it? (safety engineering)
+
+### STREAM 8
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseDoesnÕt cause unacceptable harm to the environment or peopleSafety4?
+
+### STREAM 9
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseDoesnÕt cause unacceptable harm to the environment or peoplepart of safety engineering.Safety5How we deÞne and quantify unacceptability is a big e.g. we accept some risk of planes crashing
+
+### STREAM 10
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseSoftwareCan software harm anyone on its own?contextOnly as part of a larger systemSoftware engineering is but even more so for safety.6NoOnly when in the right always about the larger system,
+
+### STREAM 11
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseKiller Software RouletteTherac-25:737 MAX:control systemRobodebt:ÒdebtÓ recovery Horizon:software71980s killer radiation machineLondon Ambulance:1990s killer dispatch systemBoeing 2018 killer ßight 2010s killer scheme2000s killer accounting
+
+### STREAM 17
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution Licensehttps://www.polleverywhere.com/ranking_polls/3CnYqTSxglOLu8DqCd4aJ?preview=true&controls=noneLive Results8
+
+### STREAM 18
+ASE: THERAC-25C STUDY9
+
+### STREAM 19
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseTherac-2510mid-1980s Radiation Therapy Machine
+
+### STREAM 22
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseTherac-25 HarmJune 1985 - Jan 1987: 6 radiation overdoses, March 21, 1986 (3rd incident): ÒInside the treatment room Cox was hit with a powerful shock. He knew from previous treatments this was not supposed to happen. He tried to get up. Not seeing or hearing him because of the broken communications between the rooms, the technician pushed the "p" key, meaning "proceed." Cox was hit again. The treatment the room and beat it with his He was sent home but returned to the hospital a few weeks later É diagnosed radiation overexposure. It later paralysed his left arm, both legs, his left vocal chord, and his ve months later.11multiple deaths.Þnally stopped when Cox stumbled to the door of Þsts.Ódiaphragm. He died nearly Þ
+
+### STREAM 23
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseSoftware errorsPoor Usabilitythe prescription data for an electron made an error by typing in command x (for x-ray treatments) instead of e (for electron). She ran the cursor up the screen to change the command x to eÓerror messages a dayÓTherac-25 Causes12ÒAt the computer console she typed in beam of 180 rads, then noticed she'd ÒTherac-25 typically issued up to four
+
+### STREAM 26
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseSoftware Overcondecided to keep only the computer control. They not only refused manual controls, but also the hardware lock mechanisms.ÓÒOn Therac-6 and 20 hardware lockout something dangerousÓManufacturer refused to believe machine was faulty initially, until more incidents.Þdence13ÒWhen it came time to make Therac-25, AECL mechanisms do not allow the operator to do
+
+### STREAM 27
+ASEMBULANCEISPATCHYSTEMC STUDY:!LONDON A D S14
+
+### STREAM 28
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution License ÒJust a few hours [into its deployment] AVLS was The system began to generate such a great quantity problem was compounded when people called back additional times because the ambulances they were expecting did not arrive. É The next day, the LAS switched back to a part-manual system, and shut 26 October 199215unable to keep track of the ambulances and their statuses in the system. It began sending multiple units to some locations and no units to other locations. É of exception messages É that calls got lost. The down the computer system completely when it quit working altogether eight days laterÓ
+
+### STREAM 29
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseAVLS HarmÒThere were as many as 46 deaths that would have been avoided had the requested ambulance arrived on time.ÓÒOne ambulance crew arrived only to body had been taken away by a mortician.ÓÒOne heart attack patient waited six hours for an ambulance before her son took her to the hospital.ÓÒAnother woman called the LAS every 30 minutes for almost three hours before an ambulance arrived. It was too late, as her husband had already died.Ó16Þnd that the patient had not only died, but his
+
+### STREAM 30
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseFurther systems launched in 2005 and 2011, both extremely unreliable initially.Problem is that these systems werenÕt engineered as if they were safety critical.LAS Since17Ambulance scheduling is not exceedingly difÞcult.
+
+### STREAM 31
+ASE: A A320C STUDYIRBUS18
+
+### STREAM 32
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution Licensey-by-wire aircraft.Airbus A32019A computer network in a plane.~150 ECUs, so a big distributed system.First civilian ß
+
+### STREAM 33
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution Licenseyover at Habsheim Air Show, at 10 metres altitudeOne woman and two children died.26 June, 198820Airbus A320 Þrst passenger ßightLow-speed ß
+
+### STREAM 36
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseCaptainÕs Reportew too low, too slow.Failed to see forest.Cause: Pilot ErrorFly-by-wire system prevented plane from levelling at correct Forest not shown on airport map given to pilots.Expecting different pilot error: system failureWhat Happened21OfÞcial ReportPilot ßaltitude and climbing.(longer) runwayNot (only) .
+
+### STREAM 37
+ASE: BOEING 737 MAXC STUDY22
+
+### STREAM 38
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseSummary10 March 2019, Ethiopian Airlines Flight 302 Both Boeing 737 MAX aircraft MCAS¥29 October 2018: Lion Air Flight 610 crashes ¥crashes ¥¥346 people killed ¥General consensus that major contributing factor was system (which is a new system added to 737 MAX series)23
+
+### STREAM 39
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseWhy MCAS?24
+
+### STREAM 42
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseMCAS Function25
+
+### STREAM 44
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseAngle of Attack Sensors26
+
+### STREAM 46
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseMCAS repeatedly activatedRepeatedly pushed planeÕs nose downPilots were unable to correct its effectsPlane eventually crashed into the groundMCAS repeated activated believed to be caused by receiving faulty AoA readingsImmediate Cause27
+
+### STREAM 47
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseLack of redundancy: MCAS took input from only Lack of human override: Pilots repeatedly tried to bring plane nose up by moving the control column. But MCAS was designed so that it couldnÕt be overridden this way.Lack of Documentation/Training: manual or training Ñ apparently deliberate choice to Contributing Factors28one AoA sensor (despite the 737 MAX having two AoA sensors)MCAS not described in maximise similarity to prior 737s to minimise total cost of ownership
+
+### STREAM 48
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseCulture: Economics vs SafetyMCAS resulted from an economic incentivecient planeminimal retraining;but meant pilots were unaware of MCAS)no need to re-certify;but meant a single point of failure)29 to make the 737 MAX as economically attractive to potential buyers as possible(Bigger engines = more efÞ; but necessitated MCAS to maximise similarity to prior 737s)(Maximising similarity = ! (Using only 1 AoA sensor = !
+
+### STREAM 49
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseCEO removed2019: airlines cancelled 183 orders nite grounding of all 737 MAXs pending investigation and re-certiProjected cost: 18.4 billion USDCheapest way to build something is to build it right the rst timeConsequences30346 deaths(at $100M per plane = 18.3 billion USD)IndeÞÞcationÞ
+
+### STREAM 50
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseCulture and EthicsEngineers have a responsibility to act ethicallyIn cultures that (implicitly) prioritise safety or other concerns. this may require challenging that culture or refusing to follow management directives(James Liang) of Volkswagen sent to system was a software engineer31economics over Remember: The Þrst employee prison over its emissions cheating
+
+### STREAM 51
+YSTEM(UK POSTHORIZON IT S OFFICE)32
+
+### STREAM 52
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseAccounting software used by British Post Ofces are run like franchises, by independent business Part of HorizonÕs job was to track accounting shortfalls of subpostmasters Horizon was faulty, resulting infalse shortfalls for thousandsDespite prior to 1999 having very Horizon IT System (UK)¥Þce ¥In the UK, most post ofÞpeople called Òsub postmastersÓ ¥¥ of subpostmasters ¥1999-2015: 900+ convictions for theft, fraud, false accounting ¥low rates of fraud etc.33
+
+### STREAM 55
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseHorizon Harmsce carried many of the prosecutions (~700) Besides criminal convictions, others lost their jobs or had to pay the shortfalls Bankruptcies, divorces, suicides Òone of the greatest miscarriages of justice in our nationÕs historyÓ - Prime Minister Rishi Sunk (2014)¥Post OfÞ¥themselves ¥¥34
+
+### STREAM 56
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseWant to know more?https://7plus.com.au/mr-bates-vs-the-post-of35Þce
+
+### STREAM 59
+OBODEBTR36
+
+### STREAM 60
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseRobodebt37
+
+### STREAM 63
+AFETYNGINEERINGS E38
+
+### STREAM 64
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseImportance of The Systemwithout considering the entire systemand be blamed (Òpilot errorÓ), at a location that was hard to see.warning dialogs39Safety cannot be talked about e.g. a pilot might fail to notice a signal, but blame is tricky to assign if the signal was placed in the cockpit c.f. early SSL/TLS
+
+### STREAM 65
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution LicenseSoftwareHardwareOperating Procedures(this is where people, users, come in.)contextThe System40The in which the system sits.
+
+### STREAM 66
+Copyright University of Melbourne 2016, provided under Creative Commons Attribution Licensesoftware and hardware used under correct operating conditions donÕt cause unacceptable harm to people or environment.In light of the above, a more precise deSafety41Þnition:
+
+### STREAM 67
+ARTNERWHO HAS NOT FOUND A P YET?42
