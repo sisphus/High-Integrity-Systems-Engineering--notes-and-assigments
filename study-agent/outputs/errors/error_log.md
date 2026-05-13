@@ -57,3 +57,51 @@
 - Correct reasoning: The answer has the right general idea, but a strong exam answer should mention concrete sources of uncertainty, such as dynamic memory allocation, task interleavings, aliasing, side-effectful functions, exceptions, or recursion.
 - Error type: Partial concept understanding.
 - Fix strategy: Provide a two-example answer frame and ask the user to retry with named restrictions.
+
+### 2026-05-13
+
+- Topic: Lecture 12 Code Practical - possibly uninitialised data.
+- Question: What condition makes `T` uninitialised in `WeirdSwap`?
+- User answer: `X > Y`.
+- Correct reasoning: `T := X` runs only when `X < Y`. Therefore `T` may be uninitialised whenever `X < Y` is false, meaning `X >= Y`. The answer `X > Y` misses the equality case.
+- Error type: Partial logical reasoning issue.
+- Fix strategy: Re-teach by negating the condition: not `X < Y` means `X >= Y`.
+- Follow-up result: User correctly explained that `X = Y` also creates the issue because `X < Y` is false.
+
+### 2026-05-14
+
+- Topic: Lecture 12 Code Practical - loop invariant range.
+- Question: In plain English, what does `for all K in A'First .. Pos => A (K) /= I` say?
+- User answer: Every `K` in range of `A`, `A(K)` is not equal to `I`.
+- Correct reasoning: The invariant says every checked index from `A'First` through the current `Pos` does not contain `I`. It does not yet say this about the whole array.
+- Error type: Partial concept understanding.
+- Fix strategy: Re-teach that `A'First .. Pos` is a prefix range that grows as the loop advances.
+
+### 2026-05-14
+
+- Topic: Lecture 12 Code Practical - checked prefix vs current element.
+- Question: If `Pos` is currently the second element, does the invariant tell us anything about the third element yet? Why or why not?
+- User answer: No, it just tells us the current value is not equal to `I`.
+- Correct reasoning: The answer correctly says it tells us nothing about the third element, but the invariant covers more than the current value. If `Pos` is second, it says the first and second elements are not equal to `I`.
+- Error type: Partial concept understanding.
+- Fix strategy: Contrast three scopes: whole array, checked prefix, and current element.
+
+### 2026-05-14
+
+- Topic: Lecture 12 Code Practical - loop invariant checked prefix.
+- Question: If `Pos` is the third element, which elements does the invariant cover?
+- User answer: `9`.
+- Correct reasoning: In the example `A = [3, 5, 9, 7]`, if `Pos` is the third element, `A'First .. Pos` covers the first, second, and third elements: `3`, `5`, and `9`. The answer only named the current element.
+- Error type: Concept misunderstanding.
+- Fix strategy: Teach `A'First .. Pos` as a range of indices first, then map those indices to values.
+- Follow-up result: User correctly answered that if `A = [2, 4, 6, 8]` and `Pos` is third, the values covered by `A'First .. Pos` are `2, 4, 6`.
+
+### 2026-05-14
+
+- Topic: Lecture 12 Code Practical - successful search postcondition.
+- Question: If `Search` returns index `3`, what must be true about `A(3)`?
+- User answer: We find the value.
+- Correct reasoning: The exact contract statement is `A(3) = I`. Returning an index means the target value `I` is stored at that returned index.
+- Error type: Surface-level memorization.
+- Fix strategy: Ask the user to state the condition using both the index and target value.
+- Follow-up result: User correctly restated that if `Search` returns index `3`, then `A(3) = I`.

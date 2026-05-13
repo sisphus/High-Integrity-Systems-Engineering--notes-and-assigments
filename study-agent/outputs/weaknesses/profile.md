@@ -157,3 +157,123 @@
 - Error type: Partial concept understanding.
 - Fix strategy: Ask for a short exam-style answer that includes two examples, such as dynamic memory allocation and tasks or aliasing.
 - Status: Active.
+
+## Topic: Lecture 12 Code Practical - Postconditions and `'Old`
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly answered that if old `X = 10` and old `Y = 4`, then after `Swap`, `X = 4` and `Y = 10`.
+- Error type: None.
+- Fix strategy: Continue from the contract to the implementation body and temporary variable.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Swap Temporary Variable
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that if the body only uses `X := Y; Y := X;`, then both variables get the old value of `Y`, so it does not swap.
+- Error type: None.
+- Fix strategy: Continue to `Pre` conditions and overflow prevention using `Add`.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Add Precondition
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that `Pre` makes sure the value will not exceed the bound.
+- Error type: None.
+- Fix strategy: Continue to missing preconditions using `Divide`.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Divide Precondition
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that `Divide` must consider unsafe situations such as dividing by zero and integer overflow.
+- Error type: None.
+- Fix strategy: Continue to absence of runtime errors, then move to `Depends` contracts.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Absence of Runtime Errors
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that one successful test may only cover a safe situation and miss cases such as division by zero or integer overflow.
+- Error type: None.
+- Fix strategy: Continue to `Depends` contracts for data-flow reasoning.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Depends Contracts
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that `Depends => (X => Y, Y => X)` means final `X` depends on old `Y`, and final `Y` depends on old `X`.
+- Error type: None.
+- Fix strategy: Continue to broken `Swapping.adb` and compare implementation data flow with the declared dependency.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Broken Swap Data Flow
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly identified that `Y := X;` should be changed to `Y := T;` so final `Y` depends on old `X`.
+- Error type: None.
+- Fix strategy: Continue to possibly uninitialised local variables using `WeirdSwap`.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Possibly Uninitialised Data
+
+- Weakness: Boundary condition repaired.
+- Evidence: User first answered that `X > Y` makes `T` uninitialised in `WeirdSwap`; after re-teaching, user correctly explained that `X = Y` also causes the issue because `X < Y` is false.
+- Error type: Partial logical reasoning issue.
+- Fix strategy: Review condition negation later: if assignment happens only when `X < Y`, then uninitialised risk occurs when `not (X < Y)`, meaning `X >= Y`.
+- Status: Improving, repaired once.
+
+## Topic: Lecture 12 Code Practical - Default Initialisation
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that giving `T` a default value only prevents the uninitialised-variable problem.
+- Error type: None.
+- Fix strategy: Continue to distinguishing runtime/data-flow safety from functional correctness.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Functional Correctness
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that functional correctness is not guaranteed just because the uninitialised-variable problem is prevented.
+- Error type: None.
+- Fix strategy: Continue to loop invariants in `Linear_Search`.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Loop Invariant Range
+
+- Weakness: Overgeneralised the loop invariant range, then repaired.
+- Evidence: User first explained `for all K in A'First .. Pos => A (K) /= I` as every `K` in the range of `A`, but later correctly identified the checked prefix values `2, 4, 6` when `Pos` is third in `[2, 4, 6, 8]`.
+- Error type: Partial concept understanding.
+- Fix strategy: Continue reinforcing `A'First .. Pos` as the checked part of the array, not the whole array.
+- Status: Improving, repaired once.
+
+## Topic: Lecture 12 Code Practical - Checked Prefix vs Current Element
+
+- Weakness: Understated the loop invariant range after correction, then repaired.
+- Evidence: User correctly said the invariant does not tell us about the third element when `Pos` is second, then described the invariant as only saying the current value is not equal to `I`; after another example, user correctly answered that `A'First .. Pos` covers `2, 4, 6` when `Pos` is third.
+- Error type: Partial concept understanding.
+- Fix strategy: Re-teach if needed that `A'First .. Pos` means all checked elements so far, not the whole array and not only the current element.
+- Status: Improving, repaired once.
+
+## Topic: Lecture 12 Code Practical - Repeated Checked Prefix Confusion
+
+- Weakness: Repeatedly read `A'First .. Pos` as only the current element, then repaired with a new example.
+- Evidence: When asked which elements the invariant covers if `Pos` is the third element, user first answered `9`, the current example value, instead of the first three checked elements; in the next example, user correctly answered `2 4 6`.
+- Error type: Concept misunderstanding.
+- Fix strategy: Drill the three-scope distinction: whole array, checked prefix, current element. Use index ranges before values.
+- Status: Improving, repaired once.
+
+## Topic: Lecture 12 Code Practical - Search No_Index Postcondition
+
+- Weakness: No active weakness detected.
+- Evidence: User correctly explained that if `Search` returns `No_Index`, then there is no such value `I` in `A`.
+- Error type: None.
+- Fix strategy: Continue to the successful-search branch of the `Post` condition.
+- Status: Stable.
+
+## Topic: Lecture 12 Code Practical - Search Successful Result Postcondition
+
+- Weakness: Answer was correct in idea but initially not precise enough, then repaired.
+- Evidence: When asked what must be true about `A(3)` if `Search` returns index `3`, user first answered "We find the value"; after re-teaching, user correctly restated `if Search returns index 3 then A(3) = I`.
+- Error type: Surface-level memorization.
+- Fix strategy: Later review successful-search postconditions using exact notation: returned index points to target value.
+- Status: Improving, repaired once.
