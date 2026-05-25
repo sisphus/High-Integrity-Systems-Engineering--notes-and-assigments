@@ -6,6 +6,33 @@
 - Fix strategy: Reinforce the two-part frame: compiler checking plus human review/maintenance.
 - Status: Improving.
 
+## Topic: Lecture 15 Ghost Code
+
+- Weakness: Understands that `with Ghost` helps proof, but has not yet clearly stated that ghost code is specification-only and not part of the deployed runtime computation.
+- Evidence: User answered, "With Ghost, it helps to prove the path is safe or not."
+- Error type: Partial concept understanding.
+- Fix strategy: Re-teach the two-box schema: real code computes the result; ghost code gives the prover extra mathematical/proof-only information.
+- Follow-up result: User correctly restated that `Partial_Sum` is used for reasoning about safe partial sums, not for deployed runtime computation.
+- Status: Repaired.
+
+## Topic: Lecture 15 Ghost Partial Sums
+
+- Weakness: Interpreted `Sum_Acc(A)(J)` as summing from the first value to the last one, instead of from the first value up to index `J`.
+- Evidence: User answered, "Sum_Acc(A)(J) means the mathematical sum of the array from first value up to the last one."
+- Error type: Partial concept understanding.
+- Fix strategy: Re-teach `J` as the current prefix endpoint using a small array and ask which value `Sum_Acc(A)(2)` covers.
+- Follow-up result: User correctly computed `Sum_Acc(A)(2) = 12` for `A = [5, 7, -3]`, showing that `J` is the prefix endpoint.
+- Status: Repaired.
+
+## Topic: Lecture 15 Loop Invariant and Ghost Model
+
+- Weakness: Confused the current input element `A(I)` with the accumulated real variable `Result` in the loop invariant.
+- Evidence: User answered, "The loop invariant is needed because it tells SPARK that the real variable A(I) matches the ghost mathematical model Sum_Acc(A)(I-1) so far."
+- Error type: Concept misunderstanding.
+- Fix strategy: Re-teach the three roles: `A(I)` is the next element, `Result` is the accumulated runtime sum, and `Sum_Acc(A)(I-1)` is the ghost mathematical sum so far.
+- Follow-up result: User correctly answered that before processing `A(2)` in `[5, 7, -3]`, `A(2) = 7`, `Result = 5`, and the invariant links `Result` to `Sum_Acc(A)(1)`.
+- Status: Repaired.
+
 ## Topic: Ada Strong Typing and Name Equivalence
 
 - Weakness: No active weakness detected yet.

@@ -1,5 +1,28 @@
 ## Review Schedule
 
+### Lecture 15 Ghost Code
+
+- Status: Started on 2026-05-16.
+- Primary lecture reference: `materials/Lecture15-GhostCode.pdf`, especially slides 2, 7-13.
+- Primary code reference: `materials/lecture15-ghost-code/src/integer_operations.ads`, `array_sum.ads`, `array_sum.adb`, and `big_integers.ads`.
+- Primary course-note references: `course-notes.pdf` Section 6.3, pp. 118-119, and Chapter 7, pp. 123-143.
+- Target schemas:
+  1. Ghost code as specification-only support.
+  2. Machine integer vs mathematical integer specification.
+  3. Ghost partial sums for loop proof.
+- Current focus: move from `Big_Integer` arithmetic repair to ghost partial sums for array summation.
+- Support level: Level 1-2. Use direct instruction, one worked example, and a completion question before near-transfer.
+- Stable point: learner can now distinguish proof-only ghost state from deployed runtime computation.
+- Stable point: learner correctly identified that `Add_Incorrect_Spec` is unsafe because evaluating `X + Y` may overflow before the precondition check succeeds.
+- Stable point: learner correctly explained that `Big_Integer` lets the contract talk about unbounded addition before converting back to bounded `Integer`.
+- Stable point: learner correctly explained that `Sum_Blind` must reason about intermediate sums because an intermediate sum may overflow even when the final result fits.
+- Stable point: learner repaired the prefix endpoint idea by correctly computing `Sum_Acc(A)(2)` without including the final array element.
+- Stable point: learner correctly explained that `for all J` checks every intermediate partial sum that could overflow.
+- Stable point: learner repaired the loop-invariant binding by distinguishing `A(I)`, `Result`, and `Sum_Acc(A)(I-1)` in a short trace.
+- Stable point: learner correctly explained that at loop completion `Result` equals `Sum_Acc(A)(A'Last)` because the whole array has been processed.
+- Next check target: user should give a compact end-to-end explanation of Lecture 15 ghost code: ghost model, `Big_Integer`, all partial sums, loop invariant, and final postcondition.
+- Suggested next review: after first answer, review `Sum_Acc` and why every intermediate array sum must fit, not only the final sum.
+
 ### Lecture 13-14 Ada Stack Code
 
 - Status: Started on 2026-05-10.

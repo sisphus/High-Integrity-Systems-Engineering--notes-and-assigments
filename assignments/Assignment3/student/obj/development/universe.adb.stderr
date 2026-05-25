@@ -1,0 +1,3 @@
+universe.ads:1:30: warning: "Ada.Numerics.Big_Numbers.Big_Reals" is an Ada 2022 unit [-gnatwi]
+universe.ads:13:04: warning: use clause for type "Vector" defined at vector.ads:7 has no effect [-gnatwu]
+universe.ads:30:01: (style) multiple blank lines [-gnatyu]

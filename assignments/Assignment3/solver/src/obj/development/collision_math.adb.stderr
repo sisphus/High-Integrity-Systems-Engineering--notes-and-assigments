@@ -1,0 +1,8 @@
+collision_math.adb:12:32: (style) "or else" required [-gnatyB]
+collision_math.adb:17:14: (style) "and then" required [-gnatyB]
+collision_math.adb:18:14: (style) "and then" required [-gnatyB]
+collision_math.adb:22:08: (style) "and then" required [-gnatyB]
+collision_math.adb:23:08: (style) "and then" required [-gnatyB]
+collision_math.adb:50:15: (style) "and then" required [-gnatyB]
+collision_math.adb:51:15: (style) "and then" required [-gnatyB]
+collision_math.ads:1:30: warning: "Ada.Numerics.Big_Numbers.Big_Reals" is an Ada 2022 unit [-gnatwi]

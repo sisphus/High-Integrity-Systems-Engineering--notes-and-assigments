@@ -1,0 +1,1 @@
+spatial.ads:1:30: warning: "Ada.Numerics.Big_Numbers.Big_Reals" is an Ada 2022 unit [-gnatwi]

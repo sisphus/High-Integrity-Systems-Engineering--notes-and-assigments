@@ -1,0 +1,4 @@
+main.adb:6:30: warning: "Ada.Numerics.Big_Numbers.Big_Reals" is an Ada 2022 unit [-gnatwi]
+main.adb:42:13: warning: function "Squared_Dist" is not referenced [-gnatwu]
+main.adb:58:26: (style) "and then" required [-gnatyB]
+main.adb:101:14: warning: procedure "Print_Collision" is not referenced [-gnatwu]

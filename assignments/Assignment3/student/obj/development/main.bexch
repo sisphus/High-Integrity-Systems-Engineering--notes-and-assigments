@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/workspaces/student/main.gpr
+20260423111105 2dbb0c723d702560ffcb1b2f01f500b8
+/workspaces/student/config/main_config.gpr
+20260424005605 afb6d26c341f5557cb080851249f6bf3
+[BOUND OBJECT FILES]
+/workspaces/student/obj/development/vector.o
+/workspaces/student/obj/development/spatial.o
+/workspaces/student/obj/development/universe.o
+/workspaces/student/obj/development/display.o
+/workspaces/student/obj/development/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/workspaces/student/obj/development/
+-L/workspaces/student/obj/development/
+-L/home/vscode/.local/share/alire/toolchains/gnat_native_15.1.2_f0e902c0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/adalib/
+-static
+/home/vscode/.local/share/alire/toolchains/gnat_native_15.1.2_f0e902c0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/adalib/libgnat.a
+-ldl

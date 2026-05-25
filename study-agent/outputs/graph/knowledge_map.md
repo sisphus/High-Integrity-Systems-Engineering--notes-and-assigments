@@ -21,4 +21,10 @@ graph TD
     P --> S[Pre and Post Contracts]
     G --> R
     O --> S
+    I --> T[Ghost Code]
+    T --> U[Big Integer Mathematical Model]
+    T --> V[Ghost Partial Sums]
+    U --> W[Overflow Free Specifications]
+    V --> X[Loop Invariants]
+    O --> X
 ```

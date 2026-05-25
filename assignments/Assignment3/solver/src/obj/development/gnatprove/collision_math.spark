@@ -1,0 +1,8399 @@
+{
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 15,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 15,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 8,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 5,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 5,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 2,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 11,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 2,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 11,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 5,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 2,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 11,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 9,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 10,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 8,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 8,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 8,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 9,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 8,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 9,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 10,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 9,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 9,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 4,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 10,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 8,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 8,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 8,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 9,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 1,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 1,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 3,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 20,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 3,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 4,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 21,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 4,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 24,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 25,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 26,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 24,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 25,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 26,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 7,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 24,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 25,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 26,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 7,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 24,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 25,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 26,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 19,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 24,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 25,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 26,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 7,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 10,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 11,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 11,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 3,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 11,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 3,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 6,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "arg": 12,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 11,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 3,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 6,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 10,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 11,
+          "predicate": "CLAIM_POST"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 11,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 3,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 22,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 10,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 11,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 1,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 3,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 23,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 6,
+        "predicate": "CLAIM_AORTE"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 15,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 13,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 15,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_AORTE"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_AORTE"
+        }
+      ],
+      "claim": {
+        "arg": 8,
+        "predicate": "CLAIM_POST"
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "arg": 13,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 14,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 15,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 16,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 17,
+          "predicate": "CLAIM_EFFECTS"
+        },
+        {
+          "arg": 18,
+          "predicate": "CLAIM_EFFECTS"
+        }
+      ],
+      "claim": {
+        "arg": 8,
+        "predicate": "CLAIM_EFFECTS"
+      }
+    }
+  ],
+  "entities": {
+    " 1": {
+      "name": "Collision_Math.Sq_Dist_At_Vec",
+      "sloc": [
+        {
+          "file": "collision_math.ads",
+          "line": 26
+        }
+      ]
+    },
+    " 10": {
+      "name": "Collision_Math.Cauchy_Schwarz",
+      "sloc": [
+        {
+          "file": "collision_math.adb",
+          "line": 66
+        }
+      ]
+    },
+    " 11": {
+      "name": "Collision_Math.Check_Implies_Safe",
+      "sloc": [
+        {
+          "file": "collision_math.adb",
+          "line": 82
+        }
+      ]
+    },
+    " 12": {
+      "name": "Collision_Math",
+      "sloc": [
+        {
+          "file": "collision_math.ads",
+          "line": 5
+        }
+      ]
+    },
+    " 13": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Integers.From_String",
+      "sloc": [
+        {
+          "file": "a-nbnbin.ads",
+          "line": 118
+        }
+      ]
+    },
+    " 14": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"*\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 160
+        }
+      ]
+    },
+    " 15": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"-\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 148
+        }
+      ]
+    },
+    " 16": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"=\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 69
+        }
+      ]
+    },
+    " 17": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\">=\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 77
+        }
+      ]
+    },
+    " 18": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.To_Big_Real",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 60
+        }
+      ]
+    },
+    " 19": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"+\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 154
+        }
+      ]
+    },
+    " 2": {
+      "name": "Collision_Math.Will_Collide",
+      "sloc": [
+        {
+          "file": "collision_math.adb",
+          "line": 10
+        }
+      ]
+    },
+    " 20": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"-\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 157
+        }
+      ]
+    },
+    " 21": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\"<=\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 73
+        }
+      ]
+    },
+    " 22": {
+      "name": "Ada.Numerics.Big_Numbers.Big_Reals.\">\"",
+      "sloc": [
+        {
+          "file": "a-nbnbre.ads",
+          "line": 75
+        }
+      ]
+    },
+    " 23": {
+      "name": "Vector.Dot",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 21
+        }
+      ]
+    },
+    " 24": {
+      "name": "Vector.Add",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 12
+        }
+      ]
+    },
+    " 25": {
+      "name": "Vector.Scale",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 18
+        }
+      ]
+    },
+    " 26": {
+      "name": "Vector.Sub",
+      "sloc": [
+        {
+          "file": "vector.ads",
+          "line": 15
+        }
+      ]
+    },
+    " 3": {
+      "name": "Collision_Math.Will_Collide_Vec",
+      "sloc": [
+        {
+          "file": "collision_math.ads",
+          "line": 12
+        }
+      ]
+    },
+    " 4": {
+      "name": "Collision_Math.Valid_Dot_Products",
+      "sloc": [
+        {
+          "file": "collision_math.adb",
+          "line": 20
+        }
+      ]
+    },
+    " 5": {
+      "name": "Collision_Math.Sq_Dist_At",
+      "sloc": [
+        {
+          "file": "collision_math.adb",
+          "line": 7
+        }
+      ]
+    },
+    " 6": {
+      "name": "Collision_Math.Check_Implies_Safe_Vec",
+      "sloc": [
+        {
+          "file": "collision_math.ads",
+          "line": 35
+        }
+      ]
+    },
+    " 7": {
+      "name": "Collision_Math.Lemma_Sq_Dist_Bridge",
+      "sloc": [
+        {
+          "file": "collision_math.ads",
+          "line": 47
+        }
+      ]
+    },
+    " 8": {
+      "name": "Collision_Math.Lemma_Square_Nonneg",
+      "sloc": [
+        {
+          "file": "collision_math.adb",
+          "line": 30
+        }
+      ]
+    },
+    " 9": {
+      "name": "Collision_Math.Lemma_CS_Scalar",
+      "sloc": [
+        {
+          "file": "collision_math.adb",
+          "line": 46
+        }
+      ]
+    }
+  },
+  "flow": [
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 1,
+      "file": "collision_math.ads",
+      "how_proved": "flow",
+      "line": 26,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "flow",
+      "line": 10,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "flow",
+      "line": 12,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 4,
+      "file": "collision_math.adb",
+      "how_proved": "flow",
+      "line": 20,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    },
+    {
+      "check_tree": {
+      },
+      "col": 13,
+      "entity": 5,
+      "file": "collision_math.adb",
+      "how_proved": "flow",
+      "line": 7,
+      "rule": "SUBPROGRAM_TERMINATION",
+      "severity": "info"
+    }
+  ],
+  "pragma_assume": [
+  ],
+  "progress": "PROGRESS_PROOF",
+  "proof": [
+    {
+      "check_col": 21,
+      "check_file": "collision_math.ads",
+      "check_line": 16,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 21,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 16,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 36,
+      "check_file": "collision_math.ads",
+      "check_line": 16,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 36,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 16,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 21,
+      "check_file": "collision_math.ads",
+      "check_line": 17,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 21,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 17,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 41,
+      "check_file": "collision_math.ads",
+      "check_line": 17,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 41,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 17,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.ads",
+      "check_line": 18,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 18,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 45,
+      "check_file": "collision_math.ads",
+      "check_line": 18,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 45,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 18,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 18,
+      "check_file": "collision_math.ads",
+      "check_line": 19,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 18,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 19,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 31,
+      "check_file": "collision_math.ads",
+      "check_line": 19,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 31,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 19,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 19,
+      "check_file": "collision_math.ads",
+      "check_line": 14,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 19,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 27,
+      "check_file": "collision_math.ads",
+      "check_line": 15,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 27,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 15,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 14,
+      "check_file": "collision_math.ads",
+      "check_line": 21,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 14,
+      "entity": 3,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 21,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 16,
+      "check_file": "collision_math.ads",
+      "check_line": 28,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 16,
+      "entity": 1,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 28,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.ads",
+      "check_line": 29,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 1,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 29,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 40,
+      "check_file": "collision_math.ads",
+      "check_line": 29,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 40,
+      "entity": 1,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 29,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 12,
+      "check_file": "collision_math.ads",
+      "check_line": 30,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 12,
+      "entity": 1,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 30,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 16,
+      "check_file": "collision_math.ads",
+      "check_line": 30,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 16,
+      "entity": 1,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 30,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 26,
+      "check_file": "collision_math.ads",
+      "check_line": 30,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 26,
+      "entity": 1,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 30,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 7,
+      "check_file": "collision_math.adb",
+      "check_line": 126,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 7,
+      "entity": 6,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 126,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 6,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.ads",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 6,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "collision_math.ads",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 6,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.ads",
+      "check_line": 39,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 6,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 39,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 48,
+      "check_file": "collision_math.ads",
+      "check_line": 39,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 48,
+      "entity": 6,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 39,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.ads",
+      "check_line": 40,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 6,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 40,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.ads",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 6,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 23,
+      "check_file": "collision_math.adb",
+      "check_line": 144,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 23,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 144,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 29,
+      "check_file": "collision_math.adb",
+      "check_line": 144,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 29,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 144,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 144,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 144,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 40,
+      "check_file": "collision_math.adb",
+      "check_line": 144,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 40,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 144,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "collision_math.adb",
+      "check_line": 144,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 3728,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 144,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 3728,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 23,
+      "check_file": "collision_math.adb",
+      "check_line": 145,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 23,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 145,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 29,
+      "check_file": "collision_math.adb",
+      "check_line": 145,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 29,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 145,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 145,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 145,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 40,
+      "check_file": "collision_math.adb",
+      "check_line": 145,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 40,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 145,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "collision_math.adb",
+      "check_line": 145,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 3322,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 7,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 145,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 3322,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 21,
+      "check_file": "collision_math.ads",
+      "check_line": 54,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 21,
+      "entity": 7,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 54,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "collision_math.ads",
+      "check_line": 56,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 7,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 56,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.ads",
+      "check_line": 54,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Timeout",
+              "steps": 1,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Valid",
+              "steps": 350,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 7,
+      "file": "collision_math.ads",
+      "how_proved": "prover",
+      "line": 54,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "Z3": {
+          "count": 1,
+          "max_steps": 350,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 7,
+      "check_file": "collision_math.adb",
+      "check_line": 8,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 7,
+      "entity": 5,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 8,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 8,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 5,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 8,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 34,
+      "check_file": "collision_math.adb",
+      "check_line": 8,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 34,
+      "entity": 5,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 8,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 39,
+      "check_file": "collision_math.adb",
+      "check_line": 8,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 39,
+      "entity": 5,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 8,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "collision_math.adb",
+      "check_line": 8,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 5,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 8,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 47,
+      "check_file": "collision_math.adb",
+      "check_line": 8,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 47,
+      "entity": 5,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 8,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 13,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 13,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 21,
+      "check_file": "collision_math.adb",
+      "check_line": 13,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 21,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 13,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 14,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 20,
+      "check_file": "collision_math.adb",
+      "check_line": 14,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 20,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 14,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 14,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 36,
+      "check_file": "collision_math.adb",
+      "check_line": 14,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 36,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "collision_math.adb",
+      "check_line": 14,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 14,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 11,
+      "check_file": "collision_math.adb",
+      "check_line": 12,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 11,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 12,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 12,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 12,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 14,
+      "check_file": "collision_math.adb",
+      "check_line": 16,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 14,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 16,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 18,
+      "check_file": "collision_math.adb",
+      "check_line": 17,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 18,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 17,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 18,
+      "check_file": "collision_math.adb",
+      "check_line": 18,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 18,
+      "entity": 2,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 18,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 8,
+      "check_file": "collision_math.adb",
+      "check_line": 21,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 8,
+      "entity": 4,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 21,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 12,
+      "check_file": "collision_math.adb",
+      "check_line": 22,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 12,
+      "entity": 4,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 22,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 12,
+      "check_file": "collision_math.adb",
+      "check_line": 23,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 12,
+      "entity": 4,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 23,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 17,
+      "check_file": "collision_math.adb",
+      "check_line": 23,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 17,
+      "entity": 4,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 23,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 23,
+      "check_file": "collision_math.adb",
+      "check_line": 23,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 23,
+      "entity": 4,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 23,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 23,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 4,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 23,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 37,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 37,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 29,
+      "check_file": "collision_math.adb",
+      "check_line": 37,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 29,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 37,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 37,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 37,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 27,
+      "check_file": "collision_math.adb",
+      "check_line": 39,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 27,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 39,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 39,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 39,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 27,
+      "check_file": "collision_math.adb",
+      "check_line": 40,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 27,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 40,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 34,
+      "check_file": "collision_math.adb",
+      "check_line": 40,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 34,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 40,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 40,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 40,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 29,
+      "check_file": "collision_math.adb",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 29,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "collision_math.adb",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 41,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 41,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 10,
+      "check_file": "collision_math.adb",
+      "check_line": 36,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 10,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 36,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 33,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 33,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 19,
+      "check_file": "collision_math.adb",
+      "check_line": 33,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 19,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 33,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 33,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 8,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 33,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 32,
+      "check_file": "collision_math.adb",
+      "check_line": 54,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 32,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 54,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "collision_math.adb",
+      "check_line": 54,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 54,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 32,
+      "check_file": "collision_math.adb",
+      "check_line": 55,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 32,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 55,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "collision_math.adb",
+      "check_line": 55,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 55,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 61,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 61,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 32,
+      "check_file": "collision_math.adb",
+      "check_line": 61,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 32,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 61,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 16,
+      "check_file": "collision_math.adb",
+      "check_line": 49,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 16,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 49,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 21,
+      "check_file": "collision_math.adb",
+      "check_line": 49,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 21,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 49,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 26,
+      "check_file": "collision_math.adb",
+      "check_line": 49,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 26,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 49,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 31,
+      "check_file": "collision_math.adb",
+      "check_line": 49,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 31,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 49,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 20,
+      "check_file": "collision_math.adb",
+      "check_line": 50,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 20,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 50,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 50,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 50,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 50,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 50,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 50,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 50,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 20,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 20,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 47,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 47,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 52,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 52,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 57,
+      "check_file": "collision_math.adb",
+      "check_line": 51,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 57,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 51,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 20,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 20,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 47,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 47,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 52,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 52,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 57,
+      "check_file": "collision_math.adb",
+      "check_line": 52,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 57,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 52,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 49,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 9,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 49,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 3,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "collision_math.adb",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 49,
+      "check_file": "collision_math.adb",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 49,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 55,
+      "check_file": "collision_math.adb",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 55,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 61,
+      "check_file": "collision_math.adb",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 61,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "collision_math.adb",
+      "check_line": 76,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 76,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 77,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 77,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "collision_math.adb",
+      "check_line": 77,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 77,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 49,
+      "check_file": "collision_math.adb",
+      "check_line": 77,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 49,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 77,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 55,
+      "check_file": "collision_math.adb",
+      "check_line": 77,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 55,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 77,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 61,
+      "check_file": "collision_math.adb",
+      "check_line": 77,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 61,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 77,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "collision_math.adb",
+      "check_line": 77,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 148,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 77,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 148,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 78,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 78,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "collision_math.adb",
+      "check_line": 78,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 78,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 49,
+      "check_file": "collision_math.adb",
+      "check_line": 78,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 49,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 78,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 55,
+      "check_file": "collision_math.adb",
+      "check_line": 78,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 55,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 78,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 61,
+      "check_file": "collision_math.adb",
+      "check_line": 78,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 61,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 78,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 22,
+      "check_file": "collision_math.adb",
+      "check_line": 78,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 506,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 22,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 78,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 506,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 69,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Timeout",
+              "steps": 1,
+              "time": 0
+            },
+            "Z3": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 10,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 69,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        },
+        "Z3": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 95,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 95,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 95,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 95,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 36,
+      "check_file": "collision_math.adb",
+      "check_line": 95,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 36,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 95,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 41,
+      "check_file": "collision_math.adb",
+      "check_line": 95,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 41,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 95,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 95,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 95,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 96,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 96,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 96,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 96,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 36,
+      "check_file": "collision_math.adb",
+      "check_line": 96,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 36,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 96,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 96,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 96,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 97,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 97,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 30,
+      "check_file": "collision_math.adb",
+      "check_line": 97,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 30,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 97,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 97,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 97,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 98,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 98,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 54,
+      "check_file": "collision_math.adb",
+      "check_line": 98,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 54,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 98,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 98,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 98,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 13,
+      "check_file": "collision_math.adb",
+      "check_line": 99,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 13,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 99,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 19,
+      "check_file": "collision_math.adb",
+      "check_line": 99,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 19,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 99,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 100,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 100,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 31,
+      "check_file": "collision_math.adb",
+      "check_line": 100,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 31,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 100,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 35,
+      "check_file": "collision_math.adb",
+      "check_line": 100,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 35,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 100,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 41,
+      "check_file": "collision_math.adb",
+      "check_line": 100,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 41,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 100,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 100,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 100,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 101,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 101,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 29,
+      "check_file": "collision_math.adb",
+      "check_line": 101,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 29,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 101,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 33,
+      "check_file": "collision_math.adb",
+      "check_line": 101,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 33,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 101,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 39,
+      "check_file": "collision_math.adb",
+      "check_line": 101,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 39,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 101,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 101,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 101,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 102,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 102,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 55,
+      "check_file": "collision_math.adb",
+      "check_line": 102,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 55,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 102,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 25,
+      "check_file": "collision_math.adb",
+      "check_line": 102,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 25,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 102,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 107,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 107,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "collision_math.adb",
+      "check_line": 107,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 107,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 47,
+      "check_file": "collision_math.adb",
+      "check_line": 107,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 47,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 107,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 107,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 107,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 108,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 108,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 33,
+      "check_file": "collision_math.adb",
+      "check_line": 108,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 33,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 108,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 38,
+      "check_file": "collision_math.adb",
+      "check_line": 108,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 38,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 108,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "collision_math.adb",
+      "check_line": 108,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 108,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 48,
+      "check_file": "collision_math.adb",
+      "check_line": 108,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 48,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 108,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 55,
+      "check_file": "collision_math.adb",
+      "check_line": 108,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 55,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 108,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 108,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 108,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 16,
+      "check_file": "collision_math.adb",
+      "check_line": 110,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 16,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 110,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 45,
+      "check_file": "collision_math.adb",
+      "check_line": 110,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 45,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 110,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 18,
+      "check_file": "collision_math.adb",
+      "check_line": 111,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 18,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 111,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 27,
+      "check_file": "collision_math.adb",
+      "check_line": 111,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 27,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 111,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 37,
+      "check_file": "collision_math.adb",
+      "check_line": 111,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 37,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 111,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 42,
+      "check_file": "collision_math.adb",
+      "check_line": 111,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 42,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 111,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 47,
+      "check_file": "collision_math.adb",
+      "check_line": 111,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 47,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 111,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 52,
+      "check_file": "collision_math.adb",
+      "check_line": 111,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 52,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 111,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 16,
+      "check_file": "collision_math.adb",
+      "check_line": 110,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 16,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 110,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 112,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 112,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 57,
+      "check_file": "collision_math.adb",
+      "check_line": 112,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 57,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 112,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 62,
+      "check_file": "collision_math.adb",
+      "check_line": 112,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 62,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 112,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 69,
+      "check_file": "collision_math.adb",
+      "check_line": 112,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 69,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 112,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 112,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 112,
+      "rule": "VC_ASSERT",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 43,
+      "check_file": "collision_math.adb",
+      "check_line": 105,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 43,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 105,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 47,
+      "check_file": "collision_math.adb",
+      "check_line": 105,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 47,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 105,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 52,
+      "check_file": "collision_math.adb",
+      "check_line": 105,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 52,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 105,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 10,
+      "check_file": "collision_math.adb",
+      "check_line": 94,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 10,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 94,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 94,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 94,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 89,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 89,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 44,
+      "check_file": "collision_math.adb",
+      "check_line": 89,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 44,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 89,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 87,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 87,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 48,
+      "check_file": "collision_math.adb",
+      "check_line": 87,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "Trivial": {
+              "result": "Valid",
+              "steps": 2,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 48,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 87,
+      "rule": "VC_PREDICATE_CHECK",
+      "severity": "info",
+      "stats": {
+        "Trivial": {
+          "count": 1,
+          "max_steps": 2,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 28,
+      "check_file": "collision_math.adb",
+      "check_line": 88,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 1,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 28,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 88,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 3,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "check_col": 15,
+      "check_file": "collision_math.adb",
+      "check_line": 89,
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC5": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "col": 15,
+      "entity": 11,
+      "file": "collision_math.adb",
+      "how_proved": "prover",
+      "line": 89,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "stats": {
+        "CVC5": {
+          "count": 1,
+          "max_steps": 21,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "skip_flow_proof": [
+  ],
+  "skip_proof": [
+  ],
+  "spark": {
+    " 1": "all",
+    " 10": "all",
+    " 11": "all",
+    " 12": "all",
+    " 2": "all",
+    " 3": "all",
+    " 4": "all",
+    " 5": "all",
+    " 6": "all",
+    " 7": "all",
+    " 8": "all",
+    " 9": "all"
+  },
+  "stop_reason": "STOP_REASON_NONE",
+  "timings": {
+    " 1": {
+      "gnat2why.vc_generation": 8.20299983024597E-03,
+      "gnatwhy3.init": 3.61016005277634E-01,
+      "gnatwhy3.register_vcs": 8.84998997207731E-04,
+      "gnatwhy3.run_vcs": 1.46000005770475E-04,
+      "gnatwhy3.save_session": 6.80699897930026E-03,
+      "gnatwhy3.schedule_vcs": 2.30000005103648E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 4.67400019988418E-03
+    },
+    " 10": {
+      "gnat2why.vc_generation": 2.40279994904995E-02,
+      "gnatwhy3.init": 3.99376988410950E-01,
+      "gnatwhy3.register_vcs": 2.23199906758964E-03,
+      "gnatwhy3.run_vcs": 1.46998994750902E-04,
+      "gnatwhy3.save_session": 9.19099897146225E-03,
+      "gnatwhy3.schedule_vcs": 3.04999004583806E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.45150003954768E-02
+    },
+    " 11": {
+      "gnat2why.vc_generation": 2.29499991983175E-02,
+      "gnatwhy3.init": 4.24908995628357E-01,
+      "gnatwhy3.register_vcs": 2.79000005684793E-03,
+      "gnatwhy3.run_vcs": 1.57000002218410E-04,
+      "gnatwhy3.save_session": 2.54319980740547E-02,
+      "gnatwhy3.schedule_vcs": 6.01998995989561E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 2.78999991714954E-02
+    },
+    " 2": {
+      "gnat2why.vc_generation": 9.19899996370077E-03,
+      "gnatwhy3.init": 3.52075010538101E-01,
+      "gnatwhy3.register_vcs": 8.82998981978744E-04,
+      "gnatwhy3.run_vcs": 1.25998994917609E-04,
+      "gnatwhy3.save_session": 6.91200001165271E-03,
+      "gnatwhy3.schedule_vcs": 2.09000005270354E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 5.67100010812283E-03
+    },
+    " 3": {
+      "gnat2why.vc_generation": 3.74739989638329E-02,
+      "gnatwhy3.init": 3.83935004472733E-01,
+      "gnatwhy3.register_vcs": 1.32599903736264E-03,
+      "gnatwhy3.run_vcs": 1.36999005917460E-04,
+      "gnatwhy3.save_session": 7.45799904689193E-03,
+      "gnatwhy3.schedule_vcs": 2.13998995604925E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 9.29400045424700E-03
+    },
+    " 4": {
+      "gnat2why.vc_generation": 8.00700020045042E-03,
+      "gnatwhy3.init": 3.51693004369736E-01,
+      "gnatwhy3.register_vcs": 7.35000008717179E-04,
+      "gnatwhy3.run_vcs": 1.27000006614253E-04,
+      "gnatwhy3.save_session": 5.87200000882149E-03,
+      "gnatwhy3.schedule_vcs": 2.07000004593283E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 3.37000004947186E-03
+    },
+    " 5": {
+      "gnat2why.vc_generation": 1.30129996687174E-02,
+      "gnatwhy3.init": 3.46386998891830E-01,
+      "gnatwhy3.register_vcs": 7.65000004321337E-04,
+      "gnatwhy3.run_vcs": 1.36000002385117E-04,
+      "gnatwhy3.save_session": 5.99899888038635E-03,
+      "gnatwhy3.schedule_vcs": 2.16999003896490E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 3.51099902763963E-03
+    },
+    " 6": {
+      "gnat2why.vc_generation": 1.49670001119375E-02,
+      "gnatwhy3.init": 3.90044987201691E-01,
+      "gnatwhy3.register_vcs": 1.12999894190580E-03,
+      "gnatwhy3.run_vcs": 1.28999003209174E-04,
+      "gnatwhy3.save_session": 6.99699902907014E-03,
+      "gnatwhy3.schedule_vcs": 2.43999005760998E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 6.69400021433830E-03
+    },
+    " 7": {
+      "gnat2why.vc_generation": 3.50079983472824E-02,
+      "gnatwhy3.init": 3.87748003005981E-01,
+      "gnatwhy3.register_vcs": 1.47999904584140E-03,
+      "gnatwhy3.run_vcs": 1.36000002385117E-04,
+      "gnatwhy3.save_session": 8.61500017344952E-03,
+      "gnatwhy3.schedule_vcs": 2.20000001718290E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.18549987673759E-02
+    },
+    " 8": {
+      "gnat2why.vc_generation": 1.01539995521307E-02,
+      "gnatwhy3.init": 3.75519990921021E-01,
+      "gnatwhy3.register_vcs": 1.03399902582169E-03,
+      "gnatwhy3.run_vcs": 1.30999003886245E-04,
+      "gnatwhy3.save_session": 8.75199865549803E-03,
+      "gnatwhy3.schedule_vcs": 2.18000001041219E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 7.35000008717179E-03
+    },
+    " 9": {
+      "gnat2why.vc_generation": 1.54609996825457E-02,
+      "gnatwhy3.init": 3.98887991905212E-01,
+      "gnatwhy3.register_vcs": 2.33300006948411E-03,
+      "gnatwhy3.run_vcs": 1.40000003739260E-04,
+      "gnatwhy3.save_session": 1.11210001632571E-02,
+      "gnatwhy3.schedule_vcs": 2.57000006968156E-04,
+      "gnatwhy3.transformations.split_goal_wp_conj": 1.84780005365610E-02
+    },
+    "global": {
+      "flow analysis": 3.22449989616871E-02,
+      "globals (advanced)": 1.84049997478724E-02,
+      "globals (basic)": 2.14809998869896E-02,
+      "init_why_sections": 5.20499981939793E-03,
+      "marking": 1.39290001243353E-02,
+      "properties (advanced)": 1.73200003337115E-03,
+      "translation of standard": 1.48019995540380E-02
+    }
+  }
+}

@@ -1,5 +1,35 @@
 ## Error Log
 
+### 2026-05-16
+
+- Topic: Lecture 15 Loop Invariant - linking real state to ghost state.
+- Question: Complete this sentence: The loop invariant is needed because it tells SPARK that the real variable ______ matches the ghost mathematical model ______ so far.
+- User answer: The loop invariant is needed because it tells SPARK that the real variable A(I) matches the ghost mathematical model Sum_Acc(A)(I-1) so far.
+- Correct reasoning: The real accumulated variable is `Result`, not `A(I)`. `A(I)` is the current input element being processed. The invariant says `Result` matches the ghost mathematical partial sum so far, usually `Sum_Acc(A)(I-1)` before processing `A(I)`.
+- Error type: Concept misunderstanding.
+- Fix strategy: Use a small array trace to separate the roles of `A(I)`, `Result`, and `Sum_Acc(A)(I-1)`.
+- Follow-up result: User correctly answered that before processing `A(2)` in `[5, 7, -3]`, `A(2) = 7`, `Result = 5`, and the invariant links `Result` to `Sum_Acc(A)(1)`.
+
+### 2026-05-16
+
+- Topic: Lecture 15 Ghost Partial Sums - meaning of `Sum_Acc(A)(J)`.
+- Question: Complete this sentence: `Sum_Acc(A)(J)` means the mathematical sum of the array from ______ up to ______.
+- User answer: Sum_Acc(A)(J) means the mathematical sum of the array from first value up to the last one.
+- Correct reasoning: `Sum_Acc(A)(J)` means the mathematical sum from the first element up to index `J`. It is a prefix sum ending at `J`, not necessarily the final/last element of the whole array.
+- Error type: Partial concept understanding.
+- Fix strategy: Re-teach `J` as the current endpoint of the checked prefix, then ask the user to compute `Sum_Acc(A)(2)` for a short array.
+- Follow-up result: User correctly computed `Sum_Acc(A)(2) = 12` for `A = [5, 7, -3]`.
+
+### 2026-05-16
+
+- Topic: Lecture 15 Ghost Code - specification-only support.
+- Question: In one sentence: why is `Partial_Sum` marked `with Ghost` instead of being treated as ordinary runtime code?
+- User answer: With Ghost, it helps to prove the path is safe or not.
+- Correct reasoning: This is directionally correct but incomplete. `with Ghost` means `Partial_Sum` exists for specification/proof only; it helps the prover reason about safety, but it is not ordinary runtime code needed for the deployed result.
+- Error type: Partial concept understanding.
+- Fix strategy: Re-teach using the two-box schema: real code computes the output; ghost code records proof-only mathematical information.
+- Follow-up result: User correctly answered that `Partial_Sum` is used for reasoning about safe partial sums, not for deployed runtime computation.
+
 ### 2026-05-06
 
 - Topic: Lecture 10-11 Ada - why Ada explicitness matters.
