@@ -1,5 +1,46 @@
 ## Error Log
 
+### 2026-06-10
+
+- Topic: Lecture 3 Counterfactual Causality - correlation vs causation.
+- Question: Use the counterfactual frame: why does a falling barometer reading not cause a storm?
+- User answer: A falling barometer reading is not correlated with a storm.
+- Correct reasoning: A falling barometer reading can be correlated with, and can precede, a storm. The mistake is treating "not causal" as "not correlated." The barometer reading does not cause the storm because if we removed or changed the reading itself, the storm could still occur; both are connected to atmospheric pressure/weather conditions.
+- Error type: Concept misunderstanding.
+- Fix strategy: Re-teach the two-slot frame: correlation = move together or predict; causation = removing A would remove B.
+- Follow-up result: User repaired the distinction by saying the falling barometer reading is correlated with a storm but does not cause it because it is just a signal of the storm.
+
+### 2026-06-10
+
+- Topic: Lecture 2 Safety Engineering - safety case structure.
+- Question: For the control "Reject any medication prescription above the safe dose limit," name one piece of evidence that could support the safety case.
+- User answer: Claim: Reject any medication prescription above the safe dose limit. Argument: the safe dose limit will curb the overflowed dose; Evidence: Design document, test results for the safe dose limit, fault analysis, medication prescription.
+- Correct reasoning: The evidence examples are mostly useful, especially design documents, test results, and fault analysis. The issue is that the claim should be a safety property, such as "the pump will not deliver medication above the safe dose limit," while "reject unsafe prescriptions" is a control used in the argument.
+- Error type: Partial concept understanding.
+- Fix strategy: Re-teach the safety-case frame as claim = safety property, argument = why controls make the claim believable, evidence = artifacts that show the controls exist and work.
+- Follow-up result: User repaired the claim as "the pump will not deliver medication above the safe dose limit."
+- Follow-up result: User correctly completed the argument and evidence slots: the pump checks requested dose before running, and a test case shows prescription 100 is rejected when the safe limit is 10.
+
+### 2026-06-10
+
+- Topic: Lecture 2 Safety Engineering - risk reasoning precision.
+- Question: Complete this sentence: "This hazard has high risk because the severity is ________ and the likelihood is increased by ________."
+- User answer: This hazard has high risk because the severity is high likelihood is increased by bad system.
+- Correct reasoning: "Severity is high" is directionally correct, but "bad system" is too vague. The likelihood/frequency side should name the concrete factor that makes the hazard more plausible, such as relying on one angle-of-attack sensor, having no sensor cross-check, or allowing repeated automation activation from faulty data.
+- Error type: Surface-level memorization.
+- Fix strategy: Re-teach risk statements as two concrete slots: severity = possible harm; likelihood = concrete condition that makes the hazard plausible.
+- Follow-up result: User repaired the answer by saying the severity is catastrophic and likelihood is increased by relying on one sensor that may give a faulty reading.
+
+### 2026-06-10
+
+- Topic: Lecture 2 Safety Engineering - hazard to control reasoning.
+- Question: For this hazard, "Medication pump delivers above the maximum safe rate." Name one possible cause and one safety control.
+- User answer: One possible cause is medication is over the safe range to patients; one safety control is to set the limit of the dose.
+- Correct reasoning: "Medication is over the safe range" mostly restates the hazard or harmful condition. A cause should explain why the hazard happens, such as wrong prescription input, failed rate sensor, software command error, or calibration failure. "Set the limit of the dose" is a reasonable control direction, but a stronger answer names a concrete control such as rejecting prescriptions above the safe limit or stopping the pump when the measured rate exceeds the safe limit.
+- Error type: Procedure confusion.
+- Fix strategy: Re-teach the three-slot frame: hazard = unsafe state, cause = why the unsafe state happens, control = mechanism that prevents or detects it.
+- Follow-up result: User repaired the answer by naming a concrete cause, "prescription input is accidentally entered as 100 instead of 10," and a concrete control, "reject any prescription above the patient's maximum safe dose limit."
+
 ### 2026-05-16
 
 - Topic: Lecture 15 Loop Invariant - linking real state to ghost state.

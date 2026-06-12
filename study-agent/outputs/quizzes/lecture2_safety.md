@@ -1,13 +1,16 @@
 ### Lecture 2 Self-Test: Safety Engineering
 
 #### Recall Questions (3)
-1. What is the lecture’s definition of safety?
-2. Why must safety be evaluated at the system level rather than only the software level?
-3. Name three recurring contributing factors seen across the lecture case studies.
+
+1. Define safety using the phrase "unacceptable harm."
+2. Why can software harm people only as part of a larger system?
+3. What is the difference between correctness, reliability, and safety?
 
 #### Application Questions (2)
-1. You are designing a drone autopilot feature that can pitch the nose down automatically. Propose two safety controls that prevent a single sensor fault from causing a crash.
-2. A hospital system shows frequent low-importance alerts and one high-importance overdose alert in the same style. Explain a redesign that lowers the chance of lethal operator error.
+
+1. A team says its flight-control feature is safe because all unit tests pass. What safety-engineering question should you ask next?
+2. For an automated medication pump, name one hazard, one possible cause, and one safety control.
 
 #### Deep Understanding Question (1)
-1. In one integrated argument, explain how technical design choices, human factors, and organizational incentives can combine to produce large-scale harm even when each team believes they are acting reasonably.
+
+1. Explain how the Boeing 737 MAX/MCAS case connects single-sensor dependence, weak human override, missing training/documentation, and economic pressure.

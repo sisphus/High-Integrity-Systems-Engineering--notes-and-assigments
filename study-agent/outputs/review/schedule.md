@@ -1,5 +1,32 @@
 ## Review Schedule
 
+### Lecture 2 Safety Engineering
+
+- Status: Restarted on 2026-06-10.
+- Primary lecture reference: `materials/Lecture2-SafetyEngineering.pdf`.
+- Primary course-note reference: `materials/course-notes.pdf` Chapter 2, especially sections 2.1-2.6.
+- Target schemas:
+  1. Whole-system safety.
+  2. Correctness vs reliability vs safety.
+  3. Hazard to control reasoning.
+- Stable point: user correctly explained that correct code and passed tests are not enough for safety if system design can still cause harm.
+- Stable point: user correctly distinguished correctness as matching specification from safety as avoiding unacceptable harm in real use.
+- Stable point: user correctly explained that a reliable system can still be unsafe if it consistently performs a dangerous design.
+- Improving point: user correctly identified an unsafe aircraft automation state as a hazard and repaired the hazard vs accident distinction.
+- Improving point: user repaired the hazard-to-control frame by naming wrong prescription input as a cause and dose-limit rejection as a control.
+- Stable point: user correctly identified "aircraft may crash and people may die" as the severity part of risk reasoning.
+- Stable point: user correctly identified single-sensor faulty reading as the likelihood/frequency part of risk reasoning.
+- Improving point: user repaired the combined risk statement by naming catastrophic severity and single-sensor faulty reading as the likelihood factor.
+- Stable point: user correctly chose "use two AoA sensors and compare them before activation" as a likelihood-reducing control for MCAS-style automation.
+- Improving point: user named plausible safety-case evidence for medication pump control, including design documents, tests, and fault analysis.
+- Improving point: user repaired the safety-case claim by stating the safety property, "the pump will not deliver medication above the safe dose limit."
+- Improving point: user correctly stated the argument: the pump checks the requested dose before running and rejects unsafe prescriptions.
+- Stable point: user correctly completed the evidence line with a concrete test case: prescription 100 is rejected when the safe limit is 10.
+- Stable point: user correctly explained that a hazard log is living because it changes as design, tests, analysis, and controls change.
+- Stable point: user gave a compact medication pump chain linking hazard, catastrophic severity/input-error likelihood, over-limit rejection control, and test evidence.
+- Next check target: user can now transfer the same chain to a case study such as Therac-25, London Ambulance, A320, MCAS, Horizon, or Robodebt.
+- Suggested next review: same day.
+
 ### Lecture 15 Ghost Code
 
 - Status: Started on 2026-05-16.

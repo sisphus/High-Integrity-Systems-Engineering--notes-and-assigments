@@ -1,3 +1,38 @@
+## Topic: Lecture 3 Counterfactual Causality
+
+- Weakness: Confuses "not a cause" with "not correlated."
+- Evidence: For the barometer/storm example, user answered that a falling barometer reading is not correlated with a storm.
+- Error type: Concept misunderstanding.
+- Fix strategy: Reinforce: correlation means two observations move together or predict each other; causation means changing/removing one event would change/remove the other event.
+- Follow-up result: User repaired the distinction by saying the barometer reading is correlated but is only a signal of the storm, not its cause.
+- Status: Repaired.
+
+## Topic: Lecture 2 Safety Engineering
+
+- Weakness: In safety-case structure, may treat the control itself as the claim.
+- Evidence: For medication pump dose-limit control, user wrote the claim as "Reject any medication prescription above the safe dose limit."
+- Error type: Partial concept understanding.
+- Fix strategy: Reinforce: claim = safety property, argument = why controls support it, evidence = documents/tests/analysis showing controls exist and work.
+- Follow-up result: User repaired the claim as "the pump will not deliver medication above the safe dose limit."
+- Follow-up result: User correctly completed the argument and evidence slots for the medication pump example.
+- Status: Repaired.
+
+- Weakness: Risk reasoning can become too vague when naming the likelihood factor.
+- Evidence: User completed the risk sentence with "likelihood is increased by bad system" instead of naming the concrete single-sensor/no-cross-check factor.
+- Error type: Surface-level memorization.
+- Fix strategy: Require the likelihood slot to name a concrete system condition that makes the hazard more plausible.
+- Follow-up result: User repaired the sentence by naming catastrophic severity and single-sensor faulty reading as the likelihood factor.
+- Follow-up result: User later gave a compact hazard-risk-control-evidence chain for the medication pump example.
+- Status: Repaired.
+
+- Weakness: Tends to restate the hazard as the cause when using hazard-to-control reasoning.
+- Evidence: For hazard "Medication pump delivers above the maximum safe rate," user answered that the cause is "medication is over the safe range to patients."
+- Error type: Procedure confusion.
+- Fix strategy: Reinforce the three-slot frame: hazard = unsafe state, cause = why it happens, control = mechanism that prevents or detects it.
+- Follow-up result: User repaired the answer by giving a concrete wrong-input cause and a concrete dose-limit rejection control.
+- Follow-up result: User later applied the chain correctly in a compact Lecture 2 end-to-end explanation.
+- Status: Repaired.
+
 ## Topic: Lecture 10-11 Ada
 
 - Weakness: Initially explained Ada explicitness mainly as catching wrong assignments, but then connected it to human reading and checking.
