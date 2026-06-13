@@ -1,0 +1,620 @@
+   SWEN90010 - High Integrity
+     Systems Engineering
+                                         Logic Intro
+
+
+
+      Toby Murray
+toby.murray@unimelb.edu.au
+
+Room 2107, Level 2, Melbourne Connect
+
+http://people.eng.unimelb.edu.au/tobym
+
+@tobycmurray
+     Story so far
+      Safety and Security Engineering
+
+                     s Hazards and Threats
+               e n t
+   q u i   rem            Understanding them: HAZOP and STRIDE
+Re
+                          Assess their possibility: FTA, Attack Trees etc.
+                s i g n
+             De
+
+                                     (Formal) Model-Based Speci cation
+                                      Formal Model-Based
+
+(c.f. UML, Statecharts)
+                                              in logic
+
+ 2     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+                                                     fi
+                                                fi
+    Why Logic at all?
+
+               Because natural language is ambiguous
+
+
+Natural language doesn’t directly permit logical reasoning
+         (e.g. to check consistency or properties)
+
+                           Examples:
+    “The system must ensure health data is shared securely and
+                  only with authorized parties”
+
+     “Only doctors have access to patient medical records.”
+
+3     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+    Logical Speci cations
+
+                                  First we need a logic
+
+     This course: ( rst order) set theory / predicate logic
+
+                   Then, we want a mechanised way to
+                   reason in the logic (i.e. prove things
+                            about our specs)
+
+                                     This course: Alloy
+
+
+
+4     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+                             fi
+                   fi
+    Today
+                     Refresher / Introduction to logic
+
+                                         Propositions
+
+                                                 Sets
+
+                                           Predicates
+
+                                            Relations
+
+                          Plus Alloy’s avour of these.
+
+
+5    Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+               fl
+    Propositions
+                  A statement that is either true or false
+                                                                                                    atom
+                          “it is raining”                        Raining
+               “it is raining in Parkville” Raining[Parkville]
+
+                                                                               predicate
+            “it is raining in Parkville
+         and it is not raining in Sydney”
+
+                                                           compound proposition
+
+
+
+6     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+    Propositional Connectives
+                                                Traditional Notation
+                     and                               ∧
+
+                      or                               ∨
+
+                     not                               ¬
+
+                 implies                                     (or →)
+
+                       iff
+      Raining[Parkville] and not Raining[Sydney]
+     Raining[Parkville] implies not Raining[Sydney]
+7     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+    Variables
+         Variables allow propositions to talk about state
+
+                                                     relation
+
+                                averageVelocity > 10
+
+                                                    variable            constant
+
+
+
+          averageVelocity > 10 and currentVelocity = 11
+       Variables talk about different parts of the state of
+     the formal model. (not state of the system/program)
+8     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+      Sets
+                                       A collection of things
+
+                      “the set containing 3 and 5”                                             {3, 5}
+
+                     “the set of even numbers”                                          { x | even[x] }
+universe             the set holding everything                                                 univ
+empty set                    the set of nothing                                                none
+union              everything in A and everything in B                                         A+B
+intersection     everything that’s in both A and B                                             A&B
+difference          everything in B that is not in A                                           B-A
+
+
+  9        Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Set Operations
+
+
+
+
+                                  A                B
+
+
+
+
+10   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Set Operations
+
+
+
+
+                                  A                B
+
+
+                                 Union: A + B
+
+
+
+11   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Set Operations
+
+
+
+
+                                  A                B
+
+
+                           Intersection: A & B
+
+
+
+12   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Set Operations
+
+
+
+
+                                  A                B
+
+
+                             Difference: A - B
+
+
+
+13   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Set Relationships
+
+
+
+
+                                A                        B
+
+
+                            Disjoint: no A & B
+
+
+
+14   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Set Relationships
+
+
+
+                                      A
+
+
+
+                                                   B
+
+
+                               Subset: A in B
+
+
+
+15   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+   Sets
+
+                      x is a member of set A                                          x in A
+subset            everything in B is also in A                                        B in A
+singleton       “the set holding just the number 3”                                        3
+cardinality     the number of things in set A                                            #A
+                                   set A is empty                                      no A
+
+
+                       in Alloy, everything is a set,
+                          even single elements
+
+ 16      Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Predicates
+         Extend propositions with the ability to quantify
+       the values of a variable that a proposition is true for
+
+              all: Proposition P(x) holds for all values of x
+                                     all x | P[x]
+                             all city | Raining[city]
+                  all city : AustralianCities | Raining[city]
+     some: Proposition P(x) holds for at least one value of x
+                                           some x | P[x]
+                            some city | not Raining[city]
+
+17     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Quanti cation
+                                        De Morgan’s Laws
+
+     all x | P[x]          is equivalent to                       not some x | not P[x]
+
+some x | P[x] is equivalent to                                    not all x | not P[x]
+
+                                Alloy Speci c Quanti ers
+ one x | P[x]                           P(x) holds for exactly one value x
+ lone x | P[x]                          P(x) holds for at most one value x
+none x | P[x]                           P(x) holds for no value x
+
+
+
+18      Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+                                   fi
+                  fi
+             fi
+ Relations
+              A proposition that relates things together
+                                            =, <, etc.
+
+         arity: the number of things the relation relates
+
+     =, < etc. are all binary relations; relate two numbers
+
+                         3 < 4, (5 - 1) = (3 + 1), etc.
+
+           A relation that relates three things together:
+
+                              IsSum(x,y,z)                 z=x+y
+
+                        Relations are just predicates
+19   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ What Is A Relation?
+              How would you write down unambiguously
+                      what a relation means?
+
+Simplest answer: just list all of the things it relates together.
+     Sum(x,y,z)                           x                y                z
+                                          0                0                0
+                                          0                1                1
+                                          …
+                                          4               12               16
+                                          …
+                                         120               -5             115
+                                          …
+
+     Each row is a tuple: (x, y, z)
+                    Any relation is a simply a set of tuples.
+20     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relations as Sets
+          Factor(x,y,z) — when y and z are factors of x
+                                     x                y                z
+                                     1                1                1
+                                     2                1                2
+                                     2                2                1
+                                     3                1                3
+                                     3                3                1
+                                     4                1                4
+                                     4                2                2
+                                     …
+
+
+     Each row is a tuple: (x, y, z)
+                    Any relation is a simply a set of tuples.
+21     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relations as Sets
+                          Factor(x,y,z) — {(x,y,z) | x = y * z}
+
+     {(1,1,1), (2,1,2), (2,2,1), (3,1,3), (3,3,1),(4,4,1), (4,2,2),…}
+
+
+             Use Factor to de ne when a number is prime,
+                  i.e. de ne the predicate IsPrime[x]
+
+              all y,z | (x,y,z) in Factor implies y = 1 or z = 1
+
+
+
+
+22          Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+                               fi
+       fi
+ Relations as Sets
+            A relation with arity n (i.e. an n-ary relation) R,
+                      is a set of n-tuples of atoms.
+
+     A binary (2-ary) relation R(a,b) is a set of:                                       pairs
+     A ternary (3-ary) relation R(a,b,c) is a set of: triples
+     A unary (1-ary) relation R(a) is a set of:                                          atoms
+                                                                i.e. just an ordinary set
+              Sets are relations, and relations are sets.
+           Sets are predicates, and predicates are sets.
+ Relations are predicates, and predicates are relations.
+23      Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Binary Relations as Pictures
+                                     Less Than: <
+
+
+
+                     3                                                          4
+
+                     4                                                         7
+                     2                                                          9
+                    …                                                       …
+
+               Domain                                                    Range
+
+
+24   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Example
+                            Imagine 2 sets of atoms:
+
+                           Username = {n1, n2, …}
+                           Password = {p1, p2, …}
+
+     Imagine an LDAP username/password database.
+                   LDAPDB : Username -> Password
+
+                  LDAPDB ⊆                 (Username x Password)
+
+
+25   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+              𝒫
+ Example
+             Every username has only one password
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   …                                                          …
+
+           Username                                                  Password
+
+
+26   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Functions
+For every username, there is only one password in LDAPDB
+       all u:Username, pw1:Password, pw2:Password |
+             LDAPDB(u,pw1) and LDAPDB(u,pw2)
+                    implies pw1 = pw2
+
+                                LDAPDB is a function
+
+
+
+
+                  Domain                                    Range
+27   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Total vs Partial Functions
+                     LDAPDB : Username -> Password
+     Does every username in Username have a password?
+              A total function gives an answer for every
+                        (type-correct) argument
+             A partial function is one that is not total.
+
+      Domain
+
+
+
+
+                 Username                                  Password
+28    Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                                   domain(LDAPDB)
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+29   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                                    range(LDAPDB)
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+30   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                               LDAPDB + (u4 -> p2)
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+31   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                               LDAPDB + (u4 -> p2)
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+32   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                              LDAPDB ++ (u3 -> p2)
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+33   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                              LDAPDB ++ (u3 -> p2)
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+34   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                                 {u1,u2} <: LDAPDB
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+35   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                                 {u1,u2} <: LDAPDB
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+36   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                                 LDAPDB :> {p1,p3}
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+37   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Operations
+                                 LDAPDB :> {p1,p3}
+
+
+                   u1                                                           p1
+                   u2                                                           p2
+                   u3                                                           p3
+                   u4
+
+           Username                                                  Password
+
+
+38   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Joins
+                       Consider two relations (as sets)
+            A                          B                               A.B
+         (0,1)                    (1,1,1)
+         (1,2)                    (2,2,1)
+         (2,3)                    (2,1,2)
+         (3,4)                    (3,1,3)
+                                  (3,3,1)
+                                  (4,4,1)
+                                  (4,1,4)
+                                  (4,2,2)
+39   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Joins
+                       Consider two relations (as sets)
+            A                          B                               A.B
+         (0,1)                    (1,1,1)
+         (1,2)                    (2,2,1)
+         (2,3)                    (2,1,2)
+         (3,4)                    (3,1,3)
+                                  (3,3,1)
+                                  (4,4,1)
+                                  (4,1,4)
+                                  (4,2,2)
+40   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Joins
+                       Consider two relations (as sets)
+            A                          B                               A.B
+         (0,1)                    (1,1,1)                           (0,1,1)
+         (1,2)                    (2,2,1)                           (1,2,1)
+         (2,3)                    (2,1,2)                           (1,1,2)
+         (3,4)                    (3,1,3)                           (2,1,3)
+                                  (3,3,1)                           (2,3,1)
+                                  (4,4,1)                           (3,4,1)
+                                  (4,1,4)                           (3,1,4)
+                                  (4,2,2)                           (3,2,2)
+41   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Relation Joins
+
+            A                          B                              B[A]
+         (0,1)                    (1,1,1)                           (0,1,1)
+         (1,2)                    (2,2,1)                           (1,2,1)
+         (2,3)                    (2,1,2)                           (1,1,2)
+         (3,4)                    (3,1,3)                           (2,1,3)
+                                  (3,3,1)                           (2,3,1)
+                                  (4,4,1)                           (3,4,1)
+                                  (4,1,4)                           (3,1,4)
+                                  (4,2,2)                           (3,2,2)
+42   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Functions as Relations
+                 Suppose we have a function f : A → B
+
+                                     f is just a relation
+
+                               i.e. a set of pairs: (a,b)
+
+                                                          Consider some ai : A
+ (ai)            (a1,b1)
+                 (a2,b2)                  What is f[ai] ?
+                 (a3,b3)                  What is ai?         {(ai)}
+                    …
+                                          f[ai] is equivalent to ai.f
+                  (ai,bi)
+                    …     i.e. f[ai] = bi which is {(bi)}
+43   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+ Where Next?
+                           How to use this to model in
+                             software engineering.
+
+                                        Why do that?
+
+
+                      Advantages and disadvantages.
+
+
+                           How to do this in Alloy and
+                           show properties of models.
+
+
+44   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+

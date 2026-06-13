@@ -1,5 +1,15 @@
 ## Error Log
 
+### 2026-06-13
+
+- Topic: Lecture 4 Attack Tree Goal Decomposition.
+- Question: For root threat "Access another user's private page," give two immediate child attack paths.
+- User answer: Path 1: get the user's ID and password to log in the page. Path 2: view the private page.
+- Correct reasoning: The first path is a valid way to realise the root threat. The second path repeats the root goal; a child path must explain how the attacker can access the page, such as changing the URL ID, abusing a missing access-control check, stealing a session cookie, or using a CSRF-style trick.
+- Error type: Procedure confusion.
+- Fix strategy: Re-teach the parent-child test: each child should fit the sentence "The attacker can access another user's private page by ____."
+- Follow-up result: User repaired the second child path as "Steal session cookie."
+
 ### 2026-06-10
 
 - Topic: Lecture 3 Counterfactual Causality - correlation vs causation.

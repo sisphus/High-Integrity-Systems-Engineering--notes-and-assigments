@@ -1,3 +1,12 @@
+## Topic: Lecture 4 Attack Tree Goal Decomposition
+
+- Weakness: May repeat the root attacker goal as a child path instead of naming a concrete way to achieve it.
+- Evidence: For root threat "Access another user's private page," user gave path 1 as getting the user's ID/password, but path 2 as "view the private page."
+- Error type: Procedure confusion.
+- Fix strategy: Reinforce parent-child test: a child must answer "how could the parent happen?" and should be replaceable by "by ...".
+- Follow-up result: User repaired the second child path as "Steal session cookie."
+- Status: Repaired.
+
 ## Topic: Lecture 3 Counterfactual Causality
 
 - Weakness: Confuses "not a cause" with "not correlated."

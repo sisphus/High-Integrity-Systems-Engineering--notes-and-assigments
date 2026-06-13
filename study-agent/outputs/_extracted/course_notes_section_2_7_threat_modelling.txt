@@ -1,0 +1,220 @@
+      • Failure probabilities can be hard to estimate.
+
+      • Sometimes FMEA is done only to satisfy the altruistic urge to “do safety”.
+
+FMEA will find and summarise system vulnerability to single point failures, and it will require lots of
+time, money and effort. An important question to ask before undertaking an FMEA is: how will the
+results be used?
+
+
+2.7      Threat Modelling for Security
+
+In this section we will discuss common threat modelling methods. Similar to hazard analysis, which
+aims to enumerate hazards, threat modelling aims to enumerate potential security threats to a system.
+The STRIDE methodology, developed at Microsoft, is a common threat modelling method that has some
+similarities with the HAZOPS method (see subsection 2.6.1).
+Attack Trees are another common method for threat modelling that has similarities to Fault Tree Analysis
+(see subsection 2.6.2).
+We briefly introduce both, drawing heavily on the opening chapters of [4]: Threat modeling: Designing
+for security, by Adam Shostack. Wiley, 2014. You can learn more there, and this book is currently
+available as an e-book from the University’s library: http://library.unimelb.edu.au.
+
+
+2.7.1     The STRIDE Method
+
+The STRIDE method, akin to HAZOPS, can be seen as a systematic process for brainstorming secu-
+rity threats to a system. While HAZOPS focuses on design items, in which one tends to concentrate
+on the interactions and communications between system components, STRIDE instead focuses on the
+interactions that occur between a system’s trust boundaries.
+
+
+Trust Boundaries
+
+Definition 2.6
+A trust boundary separates one part of a system from another, where the two parts are under the control
+of different entities who are trusted to differing degrees. 2
+
+In any system, there will be parts that we as system designers control, such as the software or the hard-
+ware components that we supply ourselves. There will also be other parts that we don’t control: for
+instance, if we are using an external cloud provider then we likely will not have full control over those
+parts of our system that run on the cloud platform. A trust boundary exists, therefore, between the parts
+of the system that we control and those parts that we do not control. For the parts we don’t control,
+some may be under the control of one entity while others might be under the control of another. If we
+trust these entities to differing degrees (e.g. perhaps we trust one more than the other because we have
+a contractual relationship with them) then a trust boundary will also exist between those parts of the
+system.
+Example 2.3
+Suppose we are building a website for a business, like the University. The website itself will be hosted
+
+                                                     42
+on University servers. However, media like videos and images will be served via a third-party content
+distribution network (CDN). This scenario is depicted in Figure 2.13.
+Each component in this system lives inside a separate trust boundary. In particular, while the web server
+might be under our control, the user and her web browser is not, and neither is the third-party CDN.
+However, since we have a contractual relationship with the third-party CDN, we are willing to trust it not
+to act in a way that would violate that contract. Therefore, we trust it more than we trust the users (and
+potential attackers who might be on the network). 2
+
+
+The STRIDE Acronym
+
+STRIDE is an acronym: each letter corresponds to a class of threats. The STRIDE approach is about
+considering each class of threats and how it might apply to the system. This is somewhat analogous to
+HAZOPS in which each guideword is applied to a system to enumerate hazards.
+In a similar way, for each of the classes of threat that STRIDE describes, we consider all of the ways
+in which that class of threat might apply to our system, i.e. what sorts of attacks might be carried out.
+STRIDE’s purpose is to help systematically enumerate the attacks or threats that our system might be
+exposed to, and to force us to think about which threats are more serious and should be mitigated in our
+system’s design.
+STRIDE therefore forces security engineers to “think like attackers”. The threat classes that each letter
+of the STRIDE acronym correspond to are:
+
+Spoofing: pretending to be something or someone that you are not.
+
+Tampering: modifying something you are not supposed to.
+
+Repudiation: claiming that you didn’t do something (when you actually did do it)
+
+Information Disclosure: revealing or stealing information that you are not supposed to be able to ac-
+     cess.
+
+Denial of Service: preventing others from accessing a system, e.g. by crashing it, making it too slow to
+     use, exhausting its storage, etc.
+
+Elevation of Privilege: being able to do something that you, technically, you are not allowed to to (e.g.
+     obtaining Administrator or root access on a server).
+
+We consider each of them briefly, illustrating each using the example system above by giving a few
+examples. Note that the lists below are not exhaustive.
+Also note that the different threat categories are not non-overlapping. Some threats might legitimately
+belong in multiple categories. For instance, suppose an attacker is able to modify the access logs for a
+system. This threat could be a repudiation threat, since changing the logs might allow them to claim that
+they did not do some action that would have otherwise been recorded in the log. However this threat is
+also a tampering threat.
+The goal with STRIDE is not to achieve a perfect categorisation of threats. But rather to aid as a tool to
+help threat brainstorming.
+
+
+
+
+                                                   43
+Spoofing This threat occurs when an attacker pretends to be someone or something that they are not.
+For instance, an attacker might impersonate a legitimate user of a system (e.g. if they can guess the user’s
+password). Or, in the case of a phishing attack, an attacker might impersonate a legitimate website.
+Spoofing threats violate the security goal of authentication.
+Example 2.4 (Spoofing Threats for Figure 2.13)           • One user pretends to be another user of the web-
+    site.
+
+    • The attacker impersonates the university’s website (via a phishing attack).
+
+    • A third party site contains a link to one of the university’s pages that causes the user to perform
+      some action on the university site; Cross-Site Request Forgery (CSRF) attack.
+2
+
+
+Tampering This threat occurs when some data is modified that is not allowed to be modified. The
+modification could occur to data at rest (e.g. stored in a database or on a website) or do data in transit
+(e.g. as it is being transmitted over the network).
+Tampering threats violate the security goal of integrity.
+Example 2.5 (Tampering Threats for Figure 2.13)      • A rogue administrator for the CDN company
+    tampers with the website content hosted on the CDN.
+
+    • An attacker tampers with data in transit between the web server and the CDN.
+
+    • The attacker modifies the website contents (website defacement).
+2
+
+
+Repudiation This threat occurs when an attacker is able to do something bad, but then later on claim
+that they did not do it. It usually occurs when a system does not have sufficient logging of actions, or
+when the logs are not properly protected.
+Repudiation threats violate the security goal of non-repudiation.
+Example 2.6 (Repudiation Threats for Figure 2.13)           • The attacker deletes or modifies the access
+    logs for the web server.
+
+    • The attacker fills up the disk space on which the log file is being stored.
+2
+
+
+Information Disclosure This threat occurs when an attacker is able to learn information that they
+should not be able to learn. It also includes attacks in which an attacker is able to cause sensitive
+information to be publicly released.
+Information disclosure threats violate the security goal of confidentiality.
+Example 2.7 (Information Disclosure Threats for Figure 2.13)        • The attacker is able to steal the
+    private key used to secure the users’ connections to the university web site.
+
+    • A rogue administrator at the CDN accesses sensitive website media.
+
+
+                                                    44
+    • An attacker is able to steal the password file for the website.
+2
+
+
+Denial of Service This threat occurs when an attacker is able to prevent the system from providing
+service to a legitimate user. Denial of Service threats are often much harder to stop than other kinds of
+threats.
+Denial of Service threats violate the security goal of availability.
+Example 2.8 (Denial of Service Threats for Figure 2.13)           • The attacker commands a bot army to
+    flood the website with traffic.
+
+    • The offsite CDN server goes down.
+2
+
+
+Elevation of Privilege This threat occurs when an attacker is able perform some action that the sys-
+tem’s security policy does not allow. The most common form of this threat is when an attacker is able
+to gain “superuser” access (i.e. Administrator or root access) to a system, when logged-in as an ordinary
+user.
+Elevation of Privilege threats violate the security goal of access control.
+Example 2.9 (Elevation of Privilege Threats for Figure 2.13)    • Somebody connects directly to the
+    CDN server to directly access website content that would otherwise be password-protected.
+
+    • The web server does not perform access control checks, allowing one website user to access an-
+      other user’s content by issuing appropriate HTTP GET requests.
+2
+
+
+2.7.2   Attack Trees
+
+Similar to fault trees, attack trees aim to deductively explore all of the ways in which a threat might be
+realised. The simple variant of attack trees that we consider here has only one type of node, representing
+some event that takes place.
+Similarly to fault trees, the root node of the tree is the ultimate threat or event whose occurrence we are
+worried about. The attack three answers the question of “how could this event occur”?
+The children of each node in the tree are the immediate causes or ways in which the event that the node
+represents might be realised or might occur.
+When a node has multiple children, they usually represent different ways in which an event can occur.
+In comparison to fault trees, they therefore represent an implicit OR node. However different attack tree
+variants can contain expliti AND and OR nodes, similarly to fault trees.
+Given their similarity to fault trees, we do not discuss attack trees in detail here. Consult Shostack [4]
+for further details or see the various online resources on attack trees for more information.
+
+
+
+
+                                                    45
+Bibliography
+
+[1] Anthony Finkelstein and John Dowell. A comedy of errors: the London Ambulance Service case
+    study. In Proceedings of the 8th International Workshop on Software Specification and Design,
+    page 2. IEEE Computer Society, 1996.
+
+[2] J. McDermid, M. Nicholson, D. Pumfrey, and P. Fenelon. Experience with the application of HAZOP
+    to computer-based systems. In Proceedings of the Tenth Annual Conference on Computer Assurance,
+    pages 37–48. IEEE, 1995.
+
+[3] Peter Mellor. CAD: computer-aided disaster. High Integrity Systems, 1(2):101–156, 1994.
+
+[4] Adam Shostack. Threat modeling: Designing for security. John Wiley & Sons, 2014.
+
+[5] Z. Wei and W. Zhangjin. HAZOP introduction.
+
+
+
+
+                                                46
+Figure 2.12: An FMEA worksheet template
+
+                  47
+

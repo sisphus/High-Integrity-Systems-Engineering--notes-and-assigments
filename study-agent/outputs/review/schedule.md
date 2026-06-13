@@ -1,5 +1,28 @@
 ## Review Schedule
 
+### Lecture 4 Threat Modelling and Attack Trees
+
+- Status: Started on 2026-06-13.
+- Primary lecture reference: `materials/Lecture4-ThreatModelling_AttackTrees.pdf`.
+- Primary course-note reference: `materials/course-notes.pdf` Section 2.7, especially STRIDE and Attack Trees.
+- Target schemas:
+  1. Trust boundary STRIDE threat brainstorming.
+  2. Attack tree backward decomposition.
+- Stable point: user correctly gave a Tampering threat for the user-browser to web-server boundary by describing changed or fake information being sent to the server.
+- Stable point: user correctly distinguished Spoofing from Tampering by classifying stolen-password login as Spoofing.
+- Stable point: user correctly classified deleting server logs to deny later action as Repudiation.
+- Stable point: user correctly classified stealing a TLS private key or password file as Information Disclosure.
+- Stable point: user correctly classified flooding a website so legitimate users cannot access it as Denial of Service.
+- Stable point: user correctly classified URL-ID access to another user's private page as Elevation of Privilege.
+- Improving point: user gave one valid attack-tree child path, credential-based login, but repeated the root goal as the second child path.
+- Improving point: user repaired the attack-tree child path by replacing the repeated root goal with "steal session cookie."
+- Stable point: user correctly identified simple attack-tree child paths as OR alternatives rather than AND requirements.
+- Improving point: user correctly applied fail-safe defaults by saying missing permission information should lead to denied access.
+- Improving point: user correctly applied complete mediation by saying the server should check whether the logged-in user owns page 99 before returning it.
+- Precision note: phrase Tampering as modifying data in transit or at rest; "faking identity" would instead be Spoofing.
+- Next check target: user should distinguish fail-safe defaults from complete mediation in one compact comparison.
+- Suggested next review: same day.
+
 ### Lecture 2 Safety Engineering
 
 - Status: Restarted on 2026-06-10.

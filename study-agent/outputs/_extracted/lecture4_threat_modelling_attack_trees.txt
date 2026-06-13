@@ -1,0 +1,257 @@
+   SWEN90010 - High Integrity
+     Systems Engineering
+                   Security Engineering: Threat Modelling
+
+
+
+      Toby Murray
+toby.murray@unimelb.edu.au
+
+DMD 8.17 (Level 8, Doug McDonell Bldg)
+
+http://people.eng.unimelb.edu.au/tobym
+
+@tobycmurray
+                  SECURITY ENGINEERING:
+          THREAT MODELLING (C.F. HAZARD ANALYSIS)
+
+    See: Shostack, Threat modeling: Designing for security. Wiley, 2014
+                 (Available as an ebook from the library:
+                          library.unimelb.edu.au)
+
+
+
+
+2
+    Security: Review
+                              Basic Security Properties:
+
+                                           Con dentiality
+
+                                                 Integrity
+
+                                               Availability
+
+                                           Authentication
+
+                                         Non-Repudiation
+
+                                          Access Control
+3        Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+    fi
+    SECURITY DESIGN PRINCIPLES
+
+
+
+
+4
+    Saltzer & Schroeder (1975)
+    •   Economy of Mechanism - complexity breeds insecurity
+
+    •   Fail-safe defaults - default deny
+
+    •   Complete mediation - every access needs to be checked
+
+    •   Open design - do not rely on the attacker’s ignorance of your system
+
+    •   Separation of privilege - privileged actions should require coordination
+
+    •   Least privilege - every program should have only the privileges
+        needed
+
+    •   Least common mechanism - minimise code that everyone has to trust
+
+    •   Psychological acceptability - the easiest way = the most secure way
+
+5       Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+    STRIDE
+
+
+
+
+6
+    Threat Modelling
+                                         trust boundary
+
+
+
+
+User
+
+Different parts of the system will be controlled by different
+entities (e.g. users vs the company vs third-party provider)
+
+A trust boundary groups together all components that are
+           under the control of the same entity
+7      Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+    STRIDE
+    •    Spoo ng: pretending to be something or someone you are not
+
+    •    Tampering: modifying something you are not supposed to
+
+    •    Repudiation: claiming you didn’t do something
+
+    •    Information Disclosure: revealing information to people who
+         are not supposed to see it
+
+    •    Denial of Service: crashing a system, making it too slow,
+         exhausting its storage
+
+    •    Elevation of Privilege: being able to do something that,
+         technically, you not allowed to do
+
+8        Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+    fi
+     Spoo ng
+                              pretending
+ pretending               to be your website
+to be another              (phishing attack)
+  customer
+
+
+
+
+User
+
+                                another site forging a
+                             link to one of your pages
+                               (e.g. placeorder.aspx)
+                                    (CSRF attack)
+ 9     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+        fi
+  Tampering
+                                                                        tampering with
+                                                                         data in transit
+
+
+
+
+User
+
+                     website defacement                                               tampering with
+                                                                                         database
+                                                                                        contents by
+                                                                                       offsite admin
+10     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+  Repudiation
+                               are there system logs?
+
+
+
+
+User
+
+
+        do they log
+         the right                                        are they protected
+       information?                                       against tampering?
+11     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+  Information Disclosure
+                                                                                    offsite admin
+                                     SQL injection
+                                                                                  reads database
+
+
+
+
+User
+                 what if somebody
+                  steals your TLS                         what if somebody steals
+                    private key?                            your password le?
+                                                             (is it encrypted?)
+12     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+                        fi
+  Denial of Service
+
+
+
+
+User
+      what if your site                                                   what if the
+gets overwhelmed by traf c?                                          offsite db provider
+                                                                        goes down?
+
+13     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+                                           fi
+  Elevation of Privilege
+            Can they issue web
+          requests for other users’
+            content (e.g. IDOR)?
+
+
+
+
+User
+                                               Can customers                           Can others
+                                               connect directly                        connect to
+                                               to the business                       the offsite db?
+                                                logic server?
+14     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+     ATTACK TREES
+
+
+
+
+15
+ Quickly, By Example
+                                       Access the building
+
+
+
+                                                                                     Some other way
+     Go through
+      the door                     Go through the
+                                      window
+                                                                  Go through the
+                                                                       wall
+
+
+
+
+16     Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+                                                                         Access the building
+ Quickly, By Example
+                                    Go through
+                                     the door                       Go through the
+                                                                       window
+                                                                                                   Go through
+                                                                                                        wall
+ When it’s
+ unlocked
+
+
+             Drill the lock
+                                                                                            Social
+                                     Pick the lock
+                                                                                          engineering
+                                                                 Use the key
+
+
+
+
+17   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+        Quickly,
+rill the lock
+                 By Example
+                                                                       Social
+               Pick the lock
+                                                                     engineering
+                                           Use the key
+
+
+                                                                                                     Go through
+                                                                                                          wall
+       Find a key
+
+
+                                                           Photograph                    Social
+                           Steal a key                     + reproduce               engineer a key
+
+
+
+
+                                                    etc
+
+
+  18   Copyright University of Melbourne 2016, provided under Creative Commons Attribution License
+

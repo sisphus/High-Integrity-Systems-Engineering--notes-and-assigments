@@ -2,6 +2,96 @@
 
 Purpose: track reusable learning schemas, not every detail. Update this only when a meaningful schema is introduced, strengthened, or shown to be weak.
 
+### Lecture 5: Introduction to Logic
+
+#### Schema: Natural Language to Logical Constraint
+
+- Trigger situation:
+  Use this schema when a requirement uses words such as "only", "all", "some", "must", "authorized", or "secure", and the task is to rewrite it as a precise formal constraint.
+- Compressed concepts:
+  Natural-language ambiguity, proposition, predicate, quantifier, implication, set membership, relation.
+- What the learner can do after acquiring it:
+  Translate a simple informal requirement into a logical shape with the right quantifier and implication direction.
+- Common failure signal:
+  The learner reverses an implication, omits the domain being quantified over, or writes a vague property without naming the relation being constrained.
+- Current evidence:
+  2026-06-13: Introduced from Lecture 5 slides and course notes Sections 3.4 to 3.7; learner has not yet answered the first Lecture 5 check question.
+- Status:
+  Forming.
+
+### Lecture 4: Threat Modelling and Attack Trees
+
+#### Schema: Trust Boundary STRIDE Threat Brainstorming
+
+- Trigger situation:
+  Use this schema when analysing security threats in a system whose components are controlled by different entities or trusted to different degrees.
+- Compressed concepts:
+  Security properties, trust boundary, cross-boundary interaction, STRIDE, threat enumeration, HAZOP-like brainstorming.
+- What the learner can do after acquiring it:
+  Identify a trust boundary and apply one STRIDE category to produce a concrete threat tied to a security property.
+- Common failure signal:
+  The learner lists generic attacks without naming the boundary or affected property, or treats STRIDE as a perfect classification scheme rather than a brainstorming aid.
+- Current evidence:
+  2026-06-13: Introduced from Lecture 4 slides and course notes Section 2.7; learner has not yet answered the first Lecture 4 check question.
+  2026-06-13: Learner gave a valid Tampering threat across the user-browser to web-server boundary by saying an attacker changes or fakes information transferred to the server; wording precision added that modification of data is the tampering core.
+  2026-06-13: Learner correctly identified using Alice's stolen password to log in as Alice as Spoofing, not Tampering.
+  2026-06-13: Learner correctly identified deleting server logs to later deny an action as Repudiation.
+  2026-06-13: Learner correctly identified stealing a TLS private key or password file as Information Disclosure.
+  2026-06-13: Learner correctly identified flooding a website so legitimate users cannot access it as Denial of Service.
+  2026-06-13: Learner correctly identified a normal user accessing another user's private page by changing the URL ID as Elevation of Privilege.
+- Status:
+  Stable.
+
+#### Schema: Attack Tree Goal Decomposition
+
+- Trigger situation:
+  Use this schema when one concrete threat has been chosen and the task is to explain the possible ways an attacker could realise it.
+- Compressed concepts:
+  Root threat, attacker goal, child attack paths, immediate ways, implicit OR, Fault-Tree-like decomposition.
+- What the learner can do after acquiring it:
+  Put the attacker goal at the root and break it into alternative immediate attack paths.
+- Common failure signal:
+  The learner starts from random techniques instead of first naming the root attacker goal, or assumes all child paths must happen together.
+- Current evidence:
+  2026-06-13: Introduced after learner correctly classified all six STRIDE categories.
+  2026-06-13: Learner gave one valid child path for "Access another user's private page" by using the user's ID/password, but the second path "view the private page" repeated the root goal instead of giving a way to achieve it.
+  2026-06-13: Learner repaired the child-path issue by replacing the repeated root goal with "steal session cookie."
+  2026-06-13: Learner correctly identified child paths "steal password," "steal session cookie," and "change URL ID" as OR alternatives, not AND requirements.
+- Status:
+  Stable.
+
+#### Schema: Fail-Safe Defaults
+
+- Trigger situation:
+  Use this schema when deciding what a security-critical system should do if permission, identity, or policy information is missing or uncertain.
+- Compressed concepts:
+  Default deny, access control, uncertainty, permission check failure, safe fallback.
+- What the learner can do after acquiring it:
+  Explain that when the system cannot confirm permission, it should deny access rather than accidentally allow it.
+- Common failure signal:
+  The learner says the system should allow access unless it can prove the user is forbidden, instead of requiring proof that the user is allowed.
+- Current evidence:
+  2026-06-13: Introduced from Saltzer and Schroeder design principles in Lecture 4.
+  2026-06-13: Learner correctly answered that if a web server cannot find a user's permission record, it should deny access under fail-safe defaults.
+- Status:
+  Forming.
+
+#### Schema: Complete Mediation
+
+- Trigger situation:
+  Use this schema when deciding whether a system should rely on one earlier permission check or re-check every protected access.
+- Compressed concepts:
+  Every access checked, protected resource, authorization, session, access-control decision.
+- What the learner can do after acquiring it:
+  Explain that being logged in is not enough; the server must check whether this user is allowed to access this specific resource.
+- Common failure signal:
+  The learner says login alone is enough, or forgets to check ownership/authorization for the requested object.
+- Current evidence:
+  2026-06-13: Introduced from Saltzer and Schroeder design principles in Lecture 4.
+  2026-06-13: Learner correctly answered that for `/private/page?id=99`, the server should check whether this user owns page 99.
+- Status:
+  Forming.
+
 ### Lecture 3: HAZOP and Fault Tree Analysis
 
 #### Schema: Counterfactual Accident-Cause Reasoning
@@ -34,6 +124,57 @@ Purpose: track reusable learning schemas, not every detail. Update this only whe
 - Current evidence:
   2026-06-10: Introduced as the next Lecture 3 schema after counterfactual causality repair; learner has not yet answered the first HAZOP check question.
   2026-06-10: Learner correctly applied guideword LATE to the brake-pedal signal design item: signal arrives late, so the vehicle may stop later than expected.
+  2026-06-13: Learner correctly completed a NONE HAZOP row for the brake-pedal signal design item: no signal, possible sensor/communication cause, and vehicle may fail to stop; minor precision needed to avoid over-absolute wording.
+  2026-06-13: Learner gave a valid safeguard direction for the NONE case by suggesting more sensors; precision added that redundancy should include comparison, fault detection, or safe fallback.
+- Status:
+  Stable.
+
+#### Schema: Fault Tree Backward-Cause Analysis
+
+- Trigger situation:
+  Use this schema after a hazard or top event has been identified and the task is to explain what combinations of causes can produce it.
+- Compressed concepts:
+  Top event, immediate cause, necessary cause, sufficient cause, AND gate, OR gate, basic event, intermediate event.
+- What the learner can do after acquiring it:
+  Start from a bad event and work backward, choosing AND when causes must happen together and OR when any one cause is enough.
+- Common failure signal:
+  The learner builds forward from components instead of backward from the hazard, or swaps AND and OR gates.
+- Current evidence:
+  2026-06-13: Introduced after HAZOP row schema became stable; learner has not yet answered the first FTA check question.
+  2026-06-13: Learner correctly chose OR for "No pedal signal reaches ECU" and "Brake actuator fails" as alternative sufficient causes of "Vehicle fails to brake when pedal is pressed."
+  2026-06-13: Learner correctly chose AND for "Sensor X failed" and "Sensor Y failed" when level sensing fails only if both sensors fail.
+  2026-06-13: Learner correctly selected "Brake actuator receives no command" as the better immediate cause over a distant organisational cause.
+- Status:
+  Stable.
+
+#### Schema: HAZOP vs Fault Tree Method Selection
+
+- Trigger situation:
+  Use this schema when choosing whether to analyse intended behaviour systematically or to decompose a selected bad event into causes.
+- Compressed concepts:
+  HAZOP, design item, guideword, deviation from intent, fault tree, top event, backward cause analysis.
+- What the learner can do after acquiring it:
+  Explain that HAZOP starts from intended design behaviour and guidewords to find deviations, while Fault Tree Analysis starts from a selected bad event and works backward to causes.
+- Common failure signal:
+  The learner says HAZOP starts from hazards or possible deviations without mentioning the design item/intended behaviour that gets mutated.
+- Current evidence:
+  2026-06-13: Learner answered that HAZOP starts from possible deviations and FTA starts from how one selected bad event can happen; corrected to include that HAZOP first starts from an intended design item.
+  2026-06-13: Learner repaired the method distinction: HAZOP starts from an intended design item, while Fault Tree Analysis starts from one selected bad event and works backward to its causes.
+- Status:
+  Stable.
+
+#### Schema: HAZOP-to-FTA Bridge
+
+- Trigger situation:
+  Use this schema when turning an exploratory HAZOP finding into a deeper causal analysis.
+- Compressed concepts:
+  HAZOP deviation, consequence, selected bad event, fault-tree top event, backward cause decomposition.
+- What the learner can do after acquiring it:
+  Choose a serious HAZOP consequence as a fault-tree top event and begin decomposing its immediate causes.
+- Common failure signal:
+  The learner treats HAZOP and FTA as unrelated methods instead of seeing that HAZOP can identify events worth analysing with FTA.
+- Current evidence:
+  2026-06-13: Introduced after the HAZOP vs FTA method-selection schema became stable.
 - Status:
   Forming.
 
