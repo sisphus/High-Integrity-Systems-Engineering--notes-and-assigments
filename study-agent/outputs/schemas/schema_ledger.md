@@ -2,6 +2,158 @@
 
 Purpose: track reusable learning schemas, not every detail. Update this only when a meaningful schema is introduced, strengthened, or shown to be weak.
 
+### Lecture 21: Fault Tolerant Design
+
+#### Schema: Fault Tolerance Boundary
+
+- Trigger situation:
+  Use this schema when a system is described as fault tolerant, or when asked what faults a high-integrity design can continue operating through.
+- Compressed concepts:
+  Specification, finite fault model, fault, error, failure, detection, workaround, redundancy, reliability.
+- What the learner can do after acquiring it:
+  Explain that fault tolerance is a bounded design claim: the system continues to meet its specification for a chosen finite set/number of faults, not for every possible fault.
+- Common failure signal:
+  The learner says a fault-tolerant system "cannot fail", or forgets to name the assumed fault model and degree of tolerance.
+- Current evidence:
+  2026-06-17: Introduced from Lecture 21 slides and course-notes.pdf Chapter 9 Section 9.1; learner has not yet answered the first fault-tolerance-boundary check question.
+- Status:
+  Forming.
+
+### Lecture 19 and 20: Pointers and Separation Logic
+
+#### Schema: Aliasing as Hidden Heap Update
+
+- Trigger situation:
+  Use this schema when two pointer/access values may refer to the same heap object, or when a proof claims that updating through one pointer leaves another pointer's value unchanged.
+- Compressed concepts:
+  Pointer, heap cell, alias, dereference, explicit update, implicit effect, safe aliasing, unsafe aliasing.
+- What the learner can do after acquiring it:
+  Check whether a fact about `Y.all` can be invalidated by an update through `X.all` because `X` and `Y` might point to the same memory.
+- Common failure signal:
+  The learner assumes different variable names imply different heap cells, or says `Y` is unchanged just because the assignment text only mentions `X`.
+- Current evidence:
+  2026-06-17: Introduced from Lecture 19 slides and course-notes.pdf Chapter 8 Sections 8.1 to 8.2; learner has not yet answered the first aliasing check question.
+- Status:
+  Forming.
+
+### Lecture 16 and 17: Hoare Logic
+
+#### Schema: Hoare Triple as Program-Correctness Contract
+
+- Trigger situation:
+  Use this schema when a program statement is surrounded by `{P}` and `{Q}`, or when asked whether code satisfies a precondition/postcondition contract.
+- Compressed concepts:
+  Precondition, program statement, postcondition, program state, correctness theorem, partial correctness.
+- What the learner can do after acquiring it:
+  Read `{P} S {Q}` as a claim that every terminating execution of `S` starting in a state satisfying `P` ends in a state satisfying `Q`.
+- Common failure signal:
+  The learner treats the triple as one test case, or says proof removes all possible bugs without checking specification quality.
+- Current evidence:
+  2026-06-17: Introduced from Lecture 16 slides and course-notes.pdf Chapter 7; learner has not yet answered the first Hoare-triple check question.
+- Status:
+  Forming.
+
+### Lecture 8 to 10: V&V and Trace-Based Modelling
+
+#### Schema: Frame Condition for Mutable State
+
+- Trigger situation:
+  Use this schema when an Alloy operation mentions one `var` field but the model also has other mutable fields or exceptional cases.
+- Compressed concepts:
+  Post-state constraint, unchanged field, frame condition, exceptional behaviour, arbitrary post-state, invariant preservation.
+- What the learner can do after acquiring it:
+  Notice that every mutable field must either be changed deliberately or constrained to remain unchanged.
+- Common failure signal:
+  The learner assumes an unmentioned field stays unchanged, or treats `report in Failed` as enough to specify failed behaviour.
+- Current evidence:
+  2026-06-14: Introduced from Lecture 8 slides and the expanded LastPass code; learner has not yet answered the first Lecture 8/9-10 check question.
+  2026-06-15: Learner correctly wrote `pb.owner' = pb.owner` as the frame condition for an operation that changes `pb.password` but should preserve `pb.owner`.
+- Status:
+  Forming.
+
+#### Schema: Trace-Constrained Attack Search
+
+- Trigger situation:
+  Use this schema when a property depends on a sequence of operations rather than one pre-state/post-state transition.
+- Compressed concepts:
+  Trace, transition fact, `always`, `state_unchanged`, lasso trace, initial condition, counterexample, Boebert capability attack.
+- What the learner can do after acquiring it:
+  Explain why Alloy needs facts constraining allowed transitions before a multi-step attack search is meaningful.
+- Common failure signal:
+  The learner checks only one operation, or forgets that a counterexample may reveal a missing initial-state constraint rather than the final intended attack.
+- Current evidence:
+  2026-06-14: Introduced from Lecture 9-10 slides, Boebert Alloy code, and course notes Section 3.10; learner has not yet answered the first Lecture 8/9-10 check question.
+  2026-06-16: Learner correctly explained that some bugs or attacks are invisible in one transition because an earlier operation can prepare a fault state and a later operation can trigger the violation.
+  2026-06-16: Learner treated `state_unchanged[s]` as checking whether `s` changes, rather than as an allowed no-op transition.
+  2026-06-17: Learner repaired `state_unchanged[s]` by saying the next state has the same `actorscaps` and `segsdata` as the current state.
+  2026-06-17: Learner correctly identified a High actor possessing a Write capability to a Low segment as a `no write down` violation.
+  2026-06-17: Learner correctly identified that a Low actor targeting a High object must not have `Read`, matching `no read up`.
+  2026-06-17: Learner correctly identified that High reading a capability from `LoSeg` changes `actorscaps`.
+  2026-06-17: Learner correctly answered that `segsdata` stays the same during a `read` operation.
+  2026-06-17: Learner correctly answered that if `d` is ordinary data and not a capability, `actorscaps` should not change.
+- Status:
+  Forming.
+
+### Lecture 6 and 7: Formal Specification and Checking
+
+#### Schema: Specification as State-Transition Relation
+
+- Trigger situation:
+  Use this schema when a module operation is described by what must be true before and after it, rather than by implementation steps.
+- Compressed concepts:
+  Formal specification, model-based specification, state, operation, pre-state, post-state, primed expression, precondition, postcondition.
+- What the learner can do after acquiring it:
+  Read a simple operation predicate such as `n' = n + 1` as a relationship between the current state and the next state.
+- Common failure signal:
+  The learner reads the prime as an assignment or tries to interpret predicate lines as sequential program statements.
+- Current evidence:
+  2026-06-13: Introduced from Lecture 6 slides and course notes Chapter 3; learner has not yet answered the first Lecture 6/7 check question.
+  2026-06-14: Learner correctly wrote `n' = 0` as the reset postcondition, showing the prime-as-next-state idea is understood for a simple transition.
+- Status:
+  Forming.
+
+#### Schema: Trace and Temporal Operator Reasoning
+
+- Trigger situation:
+  Use this schema when a specification talks about what must happen in the next state, eventually, always, or across multiple transitions.
+- Compressed concepts:
+  Trace, next state, `after`, `always`, `eventually`, sequential composition `;`, invariant over time.
+- What the learner can do after acquiring it:
+  Explain whether a property is about one transition, every state in a trace, or some future state.
+- Common failure signal:
+  The learner checks only the initial state when the property should hold throughout a trace, or forgets why invariant-preservation assertions need `always`.
+- Current evidence:
+  2026-06-13: Introduced from Lecture 6 temporal-logic slides, Lecture 7 `deleteIsUndo`, and course notes Sections 3.6.3 and 3.10.
+  2026-06-14: Learner correctly explained `eventually (door = Closed)` as the door being closed in at least one future state; precision added that the course-note definition includes the current state as well as later states.
+  2026-06-14: Learner correctly judged `after (door = Closed)` as true for a trace where the next state has `door = Closed`.
+  2026-06-14: Learner correctly explained `open ; close` as `open` happening in the current transition and `close` happening in the next transition.
+  2026-06-16: Learner confused `after inv[pb]` with a many-state or always-style property and described invariant preservation as `pb` never changing.
+  2026-06-16: Learner repaired `after inv[pb]` as meaning `inv[pb]` holds in the next state after one operation.
+  2026-06-16: Learner correctly explained that `always` checks from every state in the trace, not only the first state.
+- Status:
+  Forming.
+
+#### Schema: Alloy Bounded Counterexample Checking
+
+- Trigger situation:
+  Use this schema when using Alloy's `run`, `assert`, `check`, scope, or counterexample output to evaluate a formal specification.
+- Compressed concepts:
+  Alloy Analyser, animation, `run`, assertion, `check`, scope, finite bound, counterexample, small scope hypothesis.
+- What the learner can do after acquiring it:
+  Distinguish exploring possible behaviours with `run` from trying to falsify a claimed property with `check`, and interpret "no counterexample found" as bounded confidence.
+- Common failure signal:
+  The learner says Alloy proved the property universally, or dismisses a strange counterexample instead of finding the missing model constraint.
+- Current evidence:
+  2026-06-13: Introduced from Lecture 7 and course notes Sections 3.8 to 3.11; learner has not yet answered the first Lecture 6/7 check question.
+  2026-06-14: Learner correctly chose `run` when the goal is to find an example where `add` can happen.
+  2026-06-14: Learner correctly chose `check` when the goal is to find a counterexample to `deleteIsUndo`.
+  2026-06-14: Learner described the scope of `check deleteIsUndo for 3` but missed the result interpretation: no counterexample found means none was found within that scope, not a universal proof.
+  2026-06-14: Learner repaired the bounded-result interpretation by saying no counterexample found for scope 3 does not mean no counterexample exists beyond scope 3.
+  2026-06-14: Learner correctly said that a strange Alloy counterexample should prompt checking for missing constraints in the model.
+  2026-06-14: Learner correctly named a missing fact/precondition as one possible cause when `check deleteIsUndo` finds a counterexample.
+- Status:
+  Forming.
+
 ### Lecture 5: Introduction to Logic
 
 #### Schema: Natural Language to Logical Constraint
@@ -16,6 +168,113 @@ Purpose: track reusable learning schemas, not every detail. Update this only whe
   The learner reverses an implication, omits the domain being quantified over, or writes a vague property without naming the relation being constrained.
 - Current evidence:
   2026-06-13: Introduced from Lecture 5 slides and course notes Sections 3.4 to 3.7; learner has not yet answered the first Lecture 5 check question.
+  2026-06-13: Learner correctly used the universal-quantifier plus implication shape for "Only admins can delete accounts"; minor precision needed that the consequent should be membership in the Admin set, not a vague "author/authorized" phrase.
+  2026-06-13: Learner correctly translated "Only doctors can view medical records" as `all u : User, r : Record | canView[u, r] implies u in Doctors`.
+- Status:
+  Stable.
+
+#### Schema: Universal vs Existential Quantifier Choice
+
+- Trigger situation:
+  Use this schema when a requirement says whether a property must hold for every object or for at least one object.
+- Compressed concepts:
+  `all`, `some`, universal quantification, existential quantification, domain of a variable, predicate.
+- What the learner can do after acquiring it:
+  Choose `all` for every object in a domain and `some` for at least one object in a domain.
+- Common failure signal:
+  The learner uses `all` for an existence requirement, or uses `some` when the requirement says every case must satisfy the property.
+- Current evidence:
+  2026-06-13: Learner correctly chose `some u : Doctor | canView[u, R1]` for "At least one doctor can view record R1."
+- Status:
+  Forming.
+
+#### Schema: Membership vs Subset
+
+- Trigger situation:
+  Use this schema when reading or writing `in` in Alloy or set-theory notation.
+- Compressed concepts:
+  Set, atom, singleton, membership, subset, `x in A`, `B in A`.
+- What the learner can do after acquiring it:
+  Distinguish an element belonging to a set from one set being contained in another set.
+- Common failure signal:
+  The learner treats `x in A` and `B in A` as the same shape without checking whether the left side is one element or a set.
+- Current evidence:
+  2026-06-13: Learner correctly judged `Admin in User` as true when `Admin = {Alice}` and `User = {Alice, Bob}`.
+- Status:
+  Forming.
+
+#### Schema: Relation as Set of Tuples
+
+- Trigger situation:
+  Use this schema when a model connects objects, such as users to records, usernames to passwords, or accounts to permissions.
+- Compressed concepts:
+  Relation, tuple, arity, binary relation, membership in a relation, Alloy relation lookup.
+- What the learner can do after acquiring it:
+  Read a relation as a set of allowed connections and decide whether a specific tuple belongs to it.
+- Common failure signal:
+  The learner treats a relation name as a vague action instead of checking whether the concrete tuple is present in the set.
+- Current evidence:
+  2026-06-13: Learner correctly judged `canView[Alice, R2]` as false when `canView = {(Alice, R1), (Bob, R2)}`.
+- Status:
+  Forming.
+
+#### Schema: Function as Special Relation
+
+- Trigger situation:
+  Use this schema when a relation is intended to behave like a mapping from inputs to outputs.
+- Compressed concepts:
+  Relation, tuple, domain, range, input, output, at most one output per input.
+- What the learner can do after acquiring it:
+  Decide whether a binary relation is a function by checking whether any input maps to two different outputs.
+- Common failure signal:
+  The learner checks only that tuples exist, but does not check repeated left-hand-side inputs with different outputs.
+- Current evidence:
+  2026-06-13: Learner correctly answered that `login = {(u1, p1), (u2, p2), (u1, p3)}` is not a function because `u1` maps to two passwords.
+- Status:
+  Forming.
+
+#### Schema: Partial vs Total Function
+
+- Trigger situation:
+  Use this schema when deciding whether a function covers every input in its declared domain.
+- Compressed concepts:
+  Function, total function, partial function, domain, input coverage, at most one output.
+- What the learner can do after acquiring it:
+  Distinguish "no input has two outputs" from "every input has an output."
+- Common failure signal:
+  The learner thinks a function is total just because it has no duplicate inputs, or thinks two inputs sharing one output breaks totality.
+- Current evidence:
+  2026-06-13: Learner correctly answered yes/total for `User = {u1, u2, u3}` and `login = {(u1, p1), (u2, p2), (u3, p2)}`; all users have an output, and two users sharing `p2` is allowed.
+- Status:
+  Forming.
+
+#### Schema: Relation Union vs Override
+
+- Trigger situation:
+  Use this schema when updating a relation in Alloy and deciding whether to add a tuple or replace an existing tuple with the same domain.
+- Compressed concepts:
+  Relation, tuple, union `+`, override `++`, domain, function-preserving update.
+- What the learner can do after acquiring it:
+  Predict that `+` keeps old tuples while `++` removes old tuples with the same input before adding the new tuple.
+- Common failure signal:
+  The learner uses `+` to update a function-like relation and accidentally leaves two outputs for one input.
+- Current evidence:
+  2026-06-13: Learner correctly computed `login ++ (u2 -> p4)` from `{(u1,p1),(u2,p2)}` as `{(u1,p1),(u2,p4)}`.
+- Status:
+  Forming.
+
+#### Schema: Alloy Pre-State to Post-State Update
+
+- Trigger situation:
+  Use this schema when reading Alloy operation predicates that use a primed field such as `password'`.
+- Compressed concepts:
+  Pre-state, post-state, primed expression, relation update, override, operation predicate.
+- What the learner can do after acquiring it:
+  Explain that `password' = password ++ newTuple` defines the next-state value of `password` from its current-state value.
+- Common failure signal:
+  The learner reads the prime as quotation syntax or as mutation happening line by line, instead of as a post-state expression in one logical formula.
+- Current evidence:
+  2026-06-13: Learner correctly explained that `password'` is the next state of `password`, obtained by overriding it with `newTuple`.
 - Status:
   Forming.
 

@@ -2,9 +2,6 @@
 // SWEN90010 Assignment 2 — Redis/ChatGPT Data Leakage Model
 // =============================================================================
 //
-// Student 1: Damian Trajkovski, 1353773
-// Student 2: Leipeng Wei, 1607838
-//
 // =============================================================================
 
 // Debugging: each action predicate records which action was last performed,
