@@ -49,3 +49,9 @@ study-agent/outputs/weaknesses/
 # Local course/source materials that should remain off GitHub.
 lectures/
 study-agent/materials/**/*.pdf
+
+# Past-paper derivatives kept locally. Only the 2024 practice paper is public.
+study-agent/outputs/exams/2022-exam-practice.*
+study-agent/outputs/exams/2023-pastpaper-practice.*
+study-agent/outputs/exams/2026-predicted-mock-exam-14q-60marks.*
+study-agent/outputs/pdf/swen90010_final_exam_review.*
